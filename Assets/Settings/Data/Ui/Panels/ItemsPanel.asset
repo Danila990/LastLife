@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee3871a60dc048f8a2eff3e9dc77f4a5, type: 3}
+  m_Name: ItemsPanel
+  m_EditorClassIdentifier: 
+  PanelId: props
+  PanelIcon: {fileID: 21300000, guid: b8655df7d3d6c384ea45c368c60dad66, type: 3}
+  PanelName: Props
+  ElementItems:
+  - CategoryId: Props
+    ItemObjectDataId: box
+    ElementType: 1
+  - CategoryId: Props
+    ItemObjectDataId: tire
+    ElementType: 1
+  - CategoryId: Props
+    ItemObjectDataId: barrel
+    ElementType: 1
+  - CategoryId: Props
+    ItemObjectDataId: plunger
+    ElementType: 1
+  - CategoryId: Props
+    ItemObjectDataId: junkbox
+    ElementType: 1
+  - CategoryId: Props
+    ItemObjectDataId: trafficcone
+    ElementType: 1
+  - CategoryId: Props
+    ItemObjectDataId: plasticborder
+    ElementType: 1
+  - CategoryId: Props
+    ItemObjectDataId: sphere
+    ElementType: 1
+  - CategoryId: Props
+    ItemObjectDataId: trolley
+    ElementType: 1
+  - CategoryId: Props
+    ItemObjectDataId: toilet
+    ElementType: 1
+  CategoriesData:
+  - CategoryId: Props
+    Ico: {fileID: 21300000, guid: b8655df7d3d6c384ea45c368c60dad66, type: 3}

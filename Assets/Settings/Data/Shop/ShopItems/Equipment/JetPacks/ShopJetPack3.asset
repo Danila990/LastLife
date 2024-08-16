@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92556615dcc44ad6a0c2d54e8f289ce5, type: 3}
+  m_Name: ShopJetPack3
+  m_EditorClassIdentifier: 
+  Model:
+    <InAppId>k__BackingField: jetdrifter
+    Price: $5.99
+    PriceUSDNumber: 5.99
+    Ico: {fileID: 21300000, guid: 4e4e74f8511a7ca4fa52ba62654c16b1, type: 3}
+    Item: {fileID: 11400000, guid: 1df36ec2a4efa64449003b270b922d68, type: 2}
+    IsNewItem: 0
+    IsBestSeller: 0

@@ -1,0 +1,39 @@
+﻿title: RepairMan_Start
+position: -554,-353
+---
+
+
+<<camera RepairManCamera>>
+Handy Dude: Good day.
+Handy Dude: What can I do for you?
+<<jump RepairMan_Exchange>>
+===
+
+title: RepairMan_Exchange
+position: -71,-206
+---
+
+    [Header]What can I do for you?[/Header]
+    -> Buy Fuel
+        <<ticketToFuel "Buy fuel" "Handy Dude">>
+    -> Sell Fuel 
+        <<fuelToTicket "Sell fuel" "Handy Dude">>
+    // -> [Back/]
+    //     <<jump RepairMan_Menu>>
+
+//Handy Dude: Done!
+<<jump RepairMan_Exchange>>
+===
+
+title: RepairMan_GoodBye
+position: 151,3
+---
+
+<<if random() > 0.5 >>
+    Handy Dude: Done!
+<<elseif random() > 0.5 >>
+    Handy Dude: Finished!
+<<else>>
+    Handy Dude: Completed!
+<<endif>>
+===

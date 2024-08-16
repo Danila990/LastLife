@@ -1,0 +1,38 @@
+﻿title: MerchantModifiers_Start
+position: -554,-353
+---
+
+
+<<camera MerchantModifiersCamera>>
+ModMan: Good day.
+ModMan: What can I do for you?
+<<jump MerchantModifiers_ShopWindow>>
+===
+
+title: MerchantModifiers_Menu
+position: -417,-157
+---
+    [Header]What can I do for you?[/Header]
+    // -> Sugar Babe: Ask Information
+    //     <<jump BlogerWoman_AskInformation>>
+    -> ModMan: Buy Modificators
+        <<jump MerchantModifiers_ShopWindow>>
+===
+
+
+title: MerchantModifiers_ShopWindow
+position: -71,-206
+---
+
+<<modifiersShop "Modifications" "ModifiersItemCollection" "" "Apply Mod">>
+<<if boughtItems()>>
+    <<camera CapsuleCamera>>
+    <<hideControl>>
+    ModMan: Awesome!
+    <<stop>>
+<<else>>
+    ModMan: Good bye
+<<endif>>
+
+<<jump MerchantModifiers_Menu>>
+===

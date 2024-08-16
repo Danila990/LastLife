@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fafa5a6a1ab64007b8cea44464b43e85, type: 3}
+  m_Name: GameSetting
+  m_EditorClassIdentifier: 
+  <SettingKeyName>k__BackingField: Main_Settings
+  <SettingNormalName>k__BackingField: Main Settings
+  Parameters:
+  - _key: BossSequence
+    _parameterType: 2
+    StringValue: HeadBase,SpiderHead,JetHead
+    BoolValue: 0
+    FloatValue: 0
+    IntValue: 0
+  - _key: BoostPrice
+    _parameterType: 1
+    StringValue: 
+    BoolValue: 0
+    FloatValue: 0
+    IntValue: 3
+  - _key: AltInter
+    _parameterType: 3
+    StringValue: 
+    BoolValue: 1
+    FloatValue: 0
+    IntValue: 0
+  - _key: InPlayerWindowIAP
+    _parameterType: 2
+    StringValue: B
+    BoolValue: 0
+    FloatValue: 0
+    IntValue: 0
+  - _key: AdditionalAdvFeatures
+    _parameterType: 2
+    StringValue: B
+    BoolValue: 0
+    FloatValue: 0
+    IntValue: 0

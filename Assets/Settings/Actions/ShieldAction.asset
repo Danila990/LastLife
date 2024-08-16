@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1f028a5cc974adaa9e0d55bf3e4f60c, type: 3}
+  m_Name: ShieldAction
+  m_EditorClassIdentifier: 
+  <Id>k__BackingField: ShieldAction
+  _shieldId: Shotgun_Shield
+  _delay: 7
+  _duration: 7
+  _blinkDuration: 3
+  _showSound: {fileID: 8300000, guid: 4214e884d3b96e247948332d4d7aff7d, type: 3}
+  _hideSound: {fileID: 8300000, guid: 4bd5c2c65b9b2d44d9636630bb73db76, type: 3}
+  _offsetTpv: {x: 0, y: 0.8, z: 0}
+  _offsetFpv: {x: 0, y: 0.8, z: 0}

@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4537768351424247454
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9059528856275070053}
+  - component: {fileID: 4288476475396827466}
+  - component: {fileID: 3201346146702639612}
+  m_Layer: 15
+  m_Name: RedBoostContext
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9059528856275070053
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4537768351424247454}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4288476475396827466
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4537768351424247454}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad3faf37210b48a7956b6f344eb5e4f3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Interactions: []
+  Providers: []
+  <Owner>k__BackingField: {fileID: 0}
+  ItemAnimator: {fileID: 3201346146702639612}
+  CanAim: 0
+  ItemActionProvider:
+    Actions:
+    - _abstractEntityAction: {fileID: 11400000, guid: a494e8ea6a583be4c9f40df65671c8da,
+        type: 2}
+      <ActionKey>k__BackingField: 0
+      <ActionName>k__BackingField: 
+      <Icon>k__BackingField: {fileID: 21300000, guid: baf4cb99871ebb34f87edb8cc2f81a29,
+        type: 3}
+    - _abstractEntityAction: {fileID: 11400000, guid: e24c8679cc6405840b94ac6e6f0fbc4c,
+        type: 2}
+      <ActionKey>k__BackingField: 1
+      <ActionName>k__BackingField: 
+      <Icon>k__BackingField: {fileID: 21300000, guid: d242fd8e94c9350408795f54c46a4611,
+        type: 3}
+  <HasQuantity>k__BackingField: 1
+  _maxQuantity: 100
+  InvIco: {fileID: 21300000, guid: baf4cb99871ebb34f87edb8cc2f81a29, type: 3}
+  UseClip: {fileID: -5865635675893132270, guid: f82868883aa448f4c9e98a219789ab73,
+    type: 3}
+  UseFpvName: Boost
+--- !u!114 &3201346146702639612
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4537768351424247454}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26e4d3bba16745dfae3fd38f8b01e249, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ViewSettings: {fileID: 11400000, guid: 8fbc70b2face89d409f710869f328186, type: 2}
+  BoostsViews:
+  - BoostId: SpeedUp
+    BoostMaterial: {fileID: 2100000, guid: cc43ad371d74d2a42921d1e96038232c, type: 2}
+  - BoostId: JumpUp
+    BoostMaterial: {fileID: 2100000, guid: f2eaf6728a29a394783d91275c1ed9f2, type: 2}
+  - BoostId: Damage
+    BoostMaterial: {fileID: 2100000, guid: b52b756f7f266cc4aab9d1933ffea515, type: 2}
+  - BoostId: HP
+    BoostMaterial: {fileID: 2100000, guid: 8c1221f86ce43fb4f9bb41399a36d316, type: 2}

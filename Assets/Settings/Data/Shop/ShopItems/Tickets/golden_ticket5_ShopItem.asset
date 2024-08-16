@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c1ba13b1b0246c287ebd857877e7bee, type: 3}
+  m_Name: golden_ticket5_ShopItem
+  m_EditorClassIdentifier: 
+  Model:
+    <InAppId>k__BackingField: goldenticket5
+    Price: $8.99
+    PriceUSDNumber: 8.99
+    Ico: {fileID: 21300000, guid: 33c4d50cc9c674b499b73d891fed4615, type: 3}
+    TicketCount: 5
+    _isRemoveAds: 0
+    IsBestSeller: 0
+    ResourceType: 3

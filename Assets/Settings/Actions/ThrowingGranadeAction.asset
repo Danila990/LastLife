@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6350ba48c87353643bad2a1720208478, type: 3}
+  m_Name: ThrowingGranadeAction
+  m_EditorClassIdentifier: 
+  <Id>k__BackingField: ThrowingGranadeAction
+  _objectToThrowId: EmpGranade
+  _velocity: 100
+  _delay: 10
+  _shootSound: {fileID: 8300000, guid: 82c279bbd4e6a434198d51c329d9fa7d, type: 3}
+  _volume: 1
+  _throwTpvClip: {fileID: -203655887218126122, guid: 2d6772d54d8750340b62a047c24c2873,
+    type: 3}
+  _awaitAim: 1

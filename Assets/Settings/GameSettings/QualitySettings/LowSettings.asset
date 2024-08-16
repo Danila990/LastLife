@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fafa5a6a1ab64007b8cea44464b43e85, type: 3}
+  m_Name: LowSettings
+  m_EditorClassIdentifier: 
+  <SettingKeyName>k__BackingField: Quality_Settings
+  <SettingNormalName>k__BackingField: Low
+  Parameters:
+  - _key: RemoveAfterDeath
+    _parameterType: 3
+    StringValue: 
+    BoolValue: 1
+    FloatValue: 2
+    IntValue: 0
+  - _key: REMOVE_MAP_EXTERIOR
+    _parameterType: 3
+    StringValue: 
+    BoolValue: 1
+    FloatValue: 0
+    IntValue: 6
+  - _key: REMOVE_INITIAL_CHARACTERS
+    _parameterType: 1
+    StringValue: 
+    BoolValue: 0
+    FloatValue: 0
+    IntValue: 0
+  - _key: hd_mod
+    _parameterType: 3
+    StringValue: 
+    BoolValue: 0
+    FloatValue: 0
+    IntValue: 0
+  - _key: REMOVE_AFTER_DEATH_TIMER
+    _parameterType: 1
+    StringValue: 
+    BoolValue: 0
+    FloatValue: 0
+    IntValue: 5000
+  - _key: MAX_BOT_SPAWNED_COUNT
+    _parameterType: 1
+    StringValue: 
+    BoolValue: 0
+    FloatValue: 0
+    IntValue: 10

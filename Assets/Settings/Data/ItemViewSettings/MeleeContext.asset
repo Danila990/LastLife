@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d517710c1ce45fda8382602b25a4856, type: 3}
+  m_Name: MeleeContext
+  m_EditorClassIdentifier: 
+  CanFPV: 1
+  CanTPV: 0
+  UseFpvHands: 1
+  PlaceInHand: 0
+  PlaceInLeft: 0
+  GripType: 0
+  ItemModel: {fileID: 0}
+  ItemBone: 0
+  ModelOffset: {x: 0, y: 0, z: 0}
+  ModelRotation: {x: 0, y: 0, z: 0}
+  SeparateFpvModel: 1
+  FpvModel: {fileID: 4452351393129984425, guid: e57e8ce24e383394e9debb975946bc05,
+    type: 3}
+  FpvModelOffset: {x: 0, y: 0, z: 0}
+  FpvModelRotation: {x: 0, y: 0, z: 0}
+  FpvModelScale: {x: 0.4, y: 0.4, z: 0.4}
+  FpvHandPos: {x: 0, y: -0.073, z: 0.085}
+  FpvHandScale: {x: 0.4, y: 0.4, z: 0.4}
+  Behaviours:
+  - Key: isIdling
+    EnableIK: 0
+    CanCancel: 1
+    ExitTime: 0
+    AnimatorType: 0
+    Clip: {fileID: 0}
+    ReturnToIdle: 0
+  - Key: isRunning
+    EnableIK: 0
+    CanCancel: 1
+    ExitTime: 0
+    AnimatorType: 0
+    Clip: {fileID: 0}
+    ReturnToIdle: 0
+  - Key: Hit1
+    EnableIK: 0
+    CanCancel: 0
+    ExitTime: 1
+    AnimatorType: 0
+    Clip: {fileID: 0}
+    ReturnToIdle: 1
+  - Key: Hit2
+    EnableIK: 0
+    CanCancel: 0
+    ExitTime: 1
+    AnimatorType: 0
+    Clip: {fileID: 0}
+    ReturnToIdle: 1
+  - Key: LegAttack
+    EnableIK: 0
+    CanCancel: 0
+    ExitTime: 1
+    AnimatorType: 0
+    Clip: {fileID: 0}
+    ReturnToIdle: 1
+  OverrideIdle: 
+  NeedShowHands: 1

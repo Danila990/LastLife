@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f45e3e629594ce083e7031b41d1e5b4, type: 3}
+  m_Name: BundlesWindow
+  m_EditorClassIdentifier: 
+  ViewRegistrations:
+  - View: {fileID: 8828372429331764820, guid: e0df70ad96bb4924ea4872a6a92df733, type: 3}
+    ControllerType: Banner.Shop.ShopBundlesBannerUiController
+    UseAssemblyResolve: 0
+  WindowRegistrations:
+  - WindowType: Banner.Shop.BundlesBannersWindow
+    UseAssemblyResolve: 0

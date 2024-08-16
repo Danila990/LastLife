@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Shader Graphs_FullScreen Bricks
+  m_Shader: {fileID: -6465566751694194690, guid: 2086a9c018448fb4c8aacc817386752c,
+    type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Picture:
+        m_Texture: {fileID: 2800000, guid: 1f7ca1edc3cce844ebafffbe4542003a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _Alpha: 1
+    - _Bricksize_max: 0.35
+    - _Bricksizemin: 0.23
+    - _FlashAlpha: 1
+    - _InitialFlash: 0.49
+    - _NoisePower: 3
+    - _NoiseScale: 5
+    - _NoiseSpeed: 4.1
+    - _PhaseSpeed: 2.05
+    - _TextureIntens: 0
+    - _TilingX: 20
+    - _TilingY: 15
+    - _VinetteSmth: 0.6
+    - _Vingette_Power: 0.869
+    - _speed: 0
+    - _tilingspeed: 0.11
+    m_Colors:
+    - _Color: {r: 15.999998, g: 13.976852, b: 0, a: 1}
+    - _FlashColor: {r: 0.6597539, g: 0.4270275, b: 0, a: 1}
+    - _NoiseTiling: {r: 2, g: 2, b: 0, a: 0}
+    - _TilingX: {r: 0, g: 0, b: 0, a: 0}
+    - _Tiling_Y: {r: 0, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []

@@ -1,0 +1,120 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7017883603999175732
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5386787127039824937}
+  - component: {fileID: 5063568259716132201}
+  - component: {fileID: 8025815987960956045}
+  m_Layer: 6
+  m_Name: FlameContext
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5386787127039824937
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7017883603999175732}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5063568259716132201
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7017883603999175732}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 685c3f989d67883418c591da68b5f9e2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Interactions: []
+  Providers: []
+  _tipContext: {fileID: 0}
+  <Owner>k__BackingField: {fileID: 0}
+  ItemAnimator: {fileID: 8025815987960956045}
+  CanAim: 1
+  ItemActionProvider:
+    Actions:
+    - _abstractEntityAction: {fileID: 11400000, guid: aa849aef8d61c0648b5bd62b099cc6b3,
+        type: 2}
+      <ActionKey>k__BackingField: 0
+      <ActionName>k__BackingField: 
+      <Icon>k__BackingField: {fileID: 21300000, guid: d1175a8b420f39f479ff1040b648bb5e,
+        type: 3}
+    - _abstractEntityAction: {fileID: 11400000, guid: 8b5459e98225efc4e89e978695f19427,
+        type: 2}
+      <ActionKey>k__BackingField: 1
+      <ActionName>k__BackingField: 
+      <Icon>k__BackingField: {fileID: 21300000, guid: d18a9c15535a2184f8ab581cc4cc4fde,
+        type: 3}
+  <HasQuantity>k__BackingField: 0
+  _maxQuantity: 0
+  InvIco: {fileID: 21300000, guid: 9c752fde40277854387101ed44b4302a, type: 3}
+  <WeaponData>k__BackingField:
+    Velocity: 10
+    ProjectileKey: FlameBullet
+  _spawnOffset: {x: 0, y: 0, z: 0.12}
+  _cooldown: 0.1
+  _inaccuracy: 0.001
+  _shootCount: 1
+  _bulletLifetime: 10
+  _velocityRandomizeMlp: 0
+  _infinityClip: 0
+  _reloadTime: 2.7
+  _clip: 30
+  _reloadSound: {fileID: 8300000, guid: 4a346f485f7bd7e4f9cc09772bf5452c, type: 3}
+  _damageDelay: 0.3
+  _effectArgs:
+    EffectType: 2
+    Duration: 3
+  _damageArgs:
+    Damage: 10
+    BloodLossAmount: 0
+    BloodLossTime: 0
+    KnockOut: 0
+    HitForce: 30
+    Unpin: 500000
+    DismemberDamage: 0
+    DamageType: 0
+  _fireLoopSound: {fileID: 8300000, guid: f3faa6ddf93dd2c4fadba9b880e88bb6, type: 3}
+  _fireLoopSoundVolume: 0.1
+  _startFireSound: {fileID: 8300000, guid: 182078a41651e7f4f87f7e421edcb880, type: 3}
+  _shootSoundVolume: 0.2
+  _muzzleName: MuzzleFlash
+  _muzzleFPVScale: {x: 0.12, y: 0.12, z: 0.12}
+--- !u!114 &8025815987960956045
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7017883603999175732}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b40da229eae64e1196c590f08b62694f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ViewSettings: {fileID: 11400000, guid: 6c993a498ae13f14ca581dda111c896e, type: 2}
+  _reloadAnimationData:
+    Start: {fileID: -72674436951683907, guid: f32d8964b40b7ca4a907b61a51ef21e3, type: 3}
+    Process: {fileID: 229770723416056496, guid: f32d8964b40b7ca4a907b61a51ef21e3,
+      type: 3}
+    End: {fileID: -7797827310224996761, guid: f32d8964b40b7ca4a907b61a51ef21e3, type: 3}

@@ -1,0 +1,165 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5164864692879131458
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5632365775758842923}
+  - component: {fileID: 8252380287657489723}
+  m_Layer: 0
+  m_Name: SaiExplosive
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5632365775758842923
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5164864692879131458}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 1
+  m_Children:
+  - {fileID: 7865178849329612185}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8252380287657489723
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5164864692879131458}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53d9958a2a3349198532d4b014e16938, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Interactions: []
+  Providers: []
+  _tipContext: {fileID: 0}
+  BulletSphereSize: 0
+  BulletWeight: 50
+  Volume: 0.5
+  DamageArgs:
+    Damage: 110
+    BloodLossAmount: 0.3
+    BloodLossTime: 6
+    KnockOut: 0
+    HitForce: 50
+    Unpin: 500000
+    DismemberDamage: 0
+    DamageType: 0
+  ReleaseDelay: 2
+  DontAffectDistance: 0
+  ImpactOverrideFX: metal_hit
+  _particle: {fileID: 0}
+  _reboundSound: {fileID: 8300000, guid: c48f1a35f1c6b5c45a38d13a6e295b80, type: 3}
+  _maxRebounds: 0
+  _view: {fileID: 6563075454508634280}
+  _explosionClip: {fileID: 8300000, guid: 779ad56498071f549aa845c6e6f87f8c, type: 3}
+  _beepClip: {fileID: 8300000, guid: 600842f71f8c04f4193ec837b32f4391, type: 3}
+  _explosionKey: SmallExplosion
+  _radius: 2
+  _visitor:
+    Args:
+      Damage: 500
+      BloodLossAmount: 0
+      BloodLossTime: 0
+      KnockOut: 0
+      HitForce: 0
+      Unpin: 0
+      DismemberDamage: 0
+      DamageType: 2
+    NoDamage: 0
+    ExtraDmg: 0
+--- !u!1001 &4993187651543737490
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5632365775758842923}
+    m_Modifications:
+    - target: {fileID: 2188722947528799290, guid: f583fabbf36280040bc25a834e6f37b0,
+        type: 3}
+      propertyPath: m_Name
+      value: SaiView
+      objectReference: {fileID: 0}
+    - target: {fileID: 2913239394017386763, guid: f583fabbf36280040bc25a834e6f37b0,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2913239394017386763, guid: f583fabbf36280040bc25a834e6f37b0,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2913239394017386763, guid: f583fabbf36280040bc25a834e6f37b0,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2913239394017386763, guid: f583fabbf36280040bc25a834e6f37b0,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2913239394017386763, guid: f583fabbf36280040bc25a834e6f37b0,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2913239394017386763, guid: f583fabbf36280040bc25a834e6f37b0,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2913239394017386763, guid: f583fabbf36280040bc25a834e6f37b0,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2913239394017386763, guid: f583fabbf36280040bc25a834e6f37b0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2913239394017386763, guid: f583fabbf36280040bc25a834e6f37b0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2913239394017386763, guid: f583fabbf36280040bc25a834e6f37b0,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f583fabbf36280040bc25a834e6f37b0, type: 3}
+--- !u!1 &6563075454508634280 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2188722947528799290, guid: f583fabbf36280040bc25a834e6f37b0,
+    type: 3}
+  m_PrefabInstance: {fileID: 4993187651543737490}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &7865178849329612185 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2913239394017386763, guid: f583fabbf36280040bc25a834e6f37b0,
+    type: 3}
+  m_PrefabInstance: {fileID: 4993187651543737490}
+  m_PrefabAsset: {fileID: 0}

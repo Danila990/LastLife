@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2906041e4c64480eadd2d2e7d3698b04, type: 3}
+  m_Name: ScriptableActionsData
+  m_EditorClassIdentifier: 
+  _abstractScriptableEntityActions:
+  - {fileID: 11400000, guid: 851711f9d88400a48b7e70ace00c6d3c, type: 2}
+  - {fileID: 11400000, guid: e1da5e00f2066954dbb511417f8b661b, type: 2}
+  - {fileID: 11400000, guid: aa849aef8d61c0648b5bd62b099cc6b3, type: 2}
+  - {fileID: 11400000, guid: 95aeaca997f27d743ba93604abf96861, type: 2}
+  - {fileID: 11400000, guid: da7829af969b2284aab10727299ee36e, type: 2}
+  - {fileID: 11400000, guid: c0e2fde86c2e6b046b1ba96245fba5ac, type: 2}
+  - {fileID: 11400000, guid: 46f579f0be4784747a0f6076ef88b36a, type: 2}
+  - {fileID: 11400000, guid: b244225daeb827248863a804684aef14, type: 2}
+  - {fileID: 11400000, guid: 04e50e800eeca83458a1fb389f3940af, type: 2}
+  - {fileID: 11400000, guid: e131510f34fa1444f8b909d54d00e877, type: 2}
+  - {fileID: 11400000, guid: 8b5459e98225efc4e89e978695f19427, type: 2}
+  - {fileID: 11400000, guid: c34844c6e08d9624585e2a56d4398eac, type: 2}
+  - {fileID: 11400000, guid: 27cd536257d61ad40a2ecd5877ca7130, type: 2}
+  - {fileID: 11400000, guid: 3bc73155bc8a63445a8a8b0c113c6064, type: 2}
+  - {fileID: 11400000, guid: abde2a2e42b9c58478d76f01c2dd9f1e, type: 2}
+  - {fileID: 11400000, guid: c1f3108c8ea1e7e4b94afa3bc645c123, type: 2}
+  - {fileID: 11400000, guid: 87504b98a3835d44e93e8dfcb7e50f56, type: 2}
+  - {fileID: 11400000, guid: c13dd56c54bf9c045b51668bb5807c24, type: 2}
+  - {fileID: 11400000, guid: 8a48c887efff34f47b93f56d80f2e1e3, type: 2}
+  - {fileID: 11400000, guid: d76174e6dcbb2b343b1101a3f0a609f1, type: 2}
+  - {fileID: 11400000, guid: 748f05c9e7da2db4a95f2bd9639effc9, type: 2}
+  - {fileID: 11400000, guid: 2680d8615ae87a848ba6099051fa3057, type: 2}
+  <AbilityPairs>k__BackingField:
+    AbilityPair:
+    - CharacterId: pistolman
+      AbilityId: ThrowKnife_Ability
+    - CharacterId: revolverman
+      AbilityId: AddZoom_Ability_RevolverMan
+    - CharacterId: SawedOff
+      AbilityId: Taser_Ability
+    - CharacterId: AKMan
+      AbilityId: UnderBarrelGranade_Ability
+    - CharacterId: M16Man
+      AbilityId: EmpGrenade_Ability
+    - CharacterId: AWPMan
+      AbilityId: Teleport_Ability
+    - CharacterId: ShootgunMan
+      AbilityId: Shield_Ability
+    - CharacterId: CrossBowMan
+      AbilityId: ExplosiveBolt_Ability
+    - CharacterId: CannonMan
+      AbilityId: AddZoom_Ability_RevolverMan
+    - CharacterId: Catapultman
+      AbilityId: Shield_Ability
+    - CharacterId: SteelFanGirl
+      AbilityId: Teleport_Ability
+    - CharacterId: SaiGirl
+      AbilityId: ExplosiveSai_Ability
+    - CharacterId: minigunman
+      AbilityId: Shield_Ability
+    - CharacterId: flameman
+      AbilityId: EmpGrenade_Ability

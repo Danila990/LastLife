@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfe4cf4baaab4736b19987957ebe4265, type: 3}
+  m_Name: WorldSpaceUISO
+  m_EditorClassIdentifier: 
+  _uis:
+  - Key: TakeButton
+    UiElement: {fileID: 6887602130159912243, guid: 410ef3df1a3097145af99baedba6c7a5,
+      type: 3}
+  - Key: SupplyButton
+    UiElement: {fileID: 6887602130159912243, guid: 17bc022394da3c54595b6c9de59ebe76,
+      type: 3}
+  - Key: StaticWeaponButton
+    UiElement: {fileID: 6887602130159912243, guid: 5da19c7a6903bf548be1920de902f700,
+      type: 3}
+  - Key: UseButton
+    UiElement: {fileID: 4354611361250947387, guid: 9d3d58cef25a8db46a3686f2213d0f1f,
+      type: 3}
+  - Key: CodeLocker
+    UiElement: {fileID: 6405190690043168707, guid: bbd37c877e7bc5b4eb1b07199a123844,
+      type: 3}
+  - Key: TimerImage
+    UiElement: {fileID: 1829531463766232610, guid: f4c28359ffbc4ed4fbc67d8d7e720601,
+      type: 3}
+  - Key: GenericCustomTextButtons
+    UiElement: {fileID: 6887602130159912243, guid: c93e94faa79c02c49b55d9674afd65fe,
+      type: 3}
+  - Key: BoostButtons
+    UiElement: {fileID: 6887602130159912243, guid: cc4d8135e097c5a409e214f7eca83bfe,
+      type: 3}
+  - Key: AlterSupplyButton
+    UiElement: {fileID: 6887602130159912243, guid: 0fafc47214dd40543b4b4bae7a9e346a,
+      type: 3}
+  - Key: EmptyAnchor
+    UiElement: {fileID: 4354611361250947387, guid: c8266fd38f80d4e468a432bd58b0dbd3,
+      type: 3}
+  - Key: SpendGoldenTicket
+    UiElement: {fileID: 4354611361250947387, guid: 72598c0f28b8ae9439df56101562da68,
+      type: 3}
+  - Key: GenericCustomText
+    UiElement: {fileID: 6887602130159912243, guid: f971a961ea02d6a4bb3fe540fc3966c6,
+      type: 3}

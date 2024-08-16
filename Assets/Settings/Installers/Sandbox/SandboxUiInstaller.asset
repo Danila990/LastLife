@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b12be8f5af1b4fd08a67af95ec355a66, type: 3}
+  m_Name: SandboxUiInstaller
+  m_EditorClassIdentifier: 
+  _canvas: {fileID: 5410670798200030552, guid: 164920913044ebe4aace1ce0b12aac9f, type: 3}
+  _playerInputView: {fileID: -4925649101080182822, guid: af52c17137f342e429dcd316c6a33071,
+    type: 3}
+  _inventoryPreviewView: {fileID: 7348841225592953014, guid: adca05902fcaecd47aa0d3579199c721,
+    type: 3}
+  _spawnMenuView: {fileID: 8876477278277752381, guid: 8cafc824486ea3b4bbcb87a3dbc587d1,
+    type: 3}
+  _selectMenuButtonsView: {fileID: 6041182333959003041, guid: fe58900d7d33bcb41ab274fdd70ce66d,
+    type: 3}
+  _characterMenuView: {fileID: -8170600830969464620, guid: 69f1ef731479cb94592c8ad2e54c9283,
+    type: 3}
+  _bossHealthUiView: {fileID: 2338471581618718612, guid: 569192f24917f77489ac77dcd3f16ca0,
+    type: 3}
+  _worldSpaceUiView: {fileID: 8258917396585404593, guid: 6e8d948a65c3c7f4484b1b38f2832ae9,
+    type: 3}
+  _resourceView: {fileID: 3859260990098200020, guid: 998267d9102d958408493399add57671,
+    type: 3}
+  _shopMenuView: {fileID: 2827122872083615822, guid: e6a6eade3633c0449af9f138c7541177,
+    type: 3}
+  _reloadingView: {fileID: 176231849925017372, guid: f4abf918d93285e43aaf5f85e7e6a425,
+    type: 3}
+  _experienceView: {fileID: 8906936135795289431, guid: 85cbec8654d52d440b3317d97d60a0ff,
+    type: 3}
+  _pointerView: {fileID: 4429451741486474859, guid: 8751a877c47fc364aa1b5f71bc55891a,
+    type: 3}
+  _settingsMenuView: {fileID: 8876477278277752381, guid: b6b1a855f560ca54dbd334c03e140062,
+    type: 3}
+  _jetPackView: {fileID: 8163632186513661364, guid: c54c15f8df49971459b0340748d203b0,
+    type: 3}
+  _conversationView: {fileID: 4592112630753804370, guid: d497c6f2f7df4795bea13aa322bc02fd,
+    type: 3}
+  _questsMenuView: {fileID: -7974271465643764389, guid: 9a4c290a33139284d809085b2ce82910,
+    type: 3}
+  _widgetQuestView: {fileID: 2799539806934679513, guid: 7f8c1cf509201514b82947a4fbddcefd,
+    type: 3}

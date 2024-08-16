@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 730235938c33421d9a5d0eb39184db8a, type: 3}
+  m_Name: WoodDamageBehaviourData
+  m_EditorClassIdentifier: 
+  Behaviours:
+  - Type: 3
+    UseSoundsArray: 0
+    HitSound: {fileID: 0}
+    HitSounds: []
+    ParticleKey: 
+    BlockInteraction: 0
+    DamageMultiply: 1
+    BloodLossAmountMultiply: 1
+    BloodLossTimeMultiply: 1
+    KnockOutMultiply: 1
+    HitForceMultiply: 1
+    UnpinMultiply: 1
+    DismemberMultiply: 0
+  Fallback:
+    Type: 0
+    UseSoundsArray: 0
+    HitSound: {fileID: 0}
+    HitSounds: []
+    ParticleKey: wood_hit
+    BlockInteraction: 1
+    DamageMultiply: 1
+    BloodLossAmountMultiply: 1
+    BloodLossTimeMultiply: 1
+    KnockOutMultiply: 1
+    HitForceMultiply: 0.1
+    UnpinMultiply: 1
+    DismemberMultiply: 0

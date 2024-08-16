@@ -1,0 +1,114 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: deb4140242af4490b2c11611c24f494e, type: 3}
+  m_Name: CharactersRendererSo
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  _renderers:
+  - CharacterId: pistolman
+    RendererPrefab: {fileID: 5689257548378205108, guid: 42a181031f4807444b6a28ea0c0e0e7a,
+      type: 3}
+  - CharacterId: AKMan
+    RendererPrefab: {fileID: 179627713924145160, guid: 15974f2c8742e234b81f37ca8b9b2861,
+      type: 3}
+  - CharacterId: AWPMan
+    RendererPrefab: {fileID: 4103806827312865060, guid: 9e0c71ff045b79149be964fc6c602315,
+      type: 3}
+  - CharacterId: CrossBowMan
+    RendererPrefab: {fileID: 5365472039489750520, guid: 6603b473423258b45a4f5be83795a7f3,
+      type: 3}
+  - CharacterId: M16Man
+    RendererPrefab: {fileID: 1178197668449451464, guid: be460c89c7c42fa46928e559a08288e4,
+      type: 3}
+  - CharacterId: revolverman
+    RendererPrefab: {fileID: 3399302521600283096, guid: e847950749ee2b642a4cc1f7a4480e0c,
+      type: 3}
+  - CharacterId: SawedOff
+    RendererPrefab: {fileID: 1558833227442621402, guid: d33ccf38f3b0bce46b0b149bf6811d3d,
+      type: 3}
+  - CharacterId: ShootgunMan
+    RendererPrefab: {fileID: 5949139032612050555, guid: 558cd1c640e0fa341802104894fe7b71,
+      type: 3}
+  - CharacterId: Catapultman
+    RendererPrefab: {fileID: 3399302521600283096, guid: 992c807c918cfbe40b8116ebc6b850f3,
+      type: 3}
+  - CharacterId: SteelFanGirl
+    RendererPrefab: {fileID: 3399302521600283096, guid: ec377becf85d56440ac4fd73bb78f3b3,
+      type: 3}
+  - CharacterId: CannonMan
+    RendererPrefab: {fileID: 3399302521600283096, guid: f0cb20e52cc345e4698645d383f9c251,
+      type: 3}
+  - CharacterId: SaiGirl
+    RendererPrefab: {fileID: 3399302521600283096, guid: f80db15ba1aa467478399515eb0af564,
+      type: 3}
+  - CharacterId: minigunman
+    RendererPrefab: {fileID: 5689257548378205108, guid: 005255ddd2fc2644b8c095bec540bab9,
+      type: 3}
+  - CharacterId: flameman
+    RendererPrefab: {fileID: 5689257548378205108, guid: b7752ae4776ccd6429f27aeb84cd7b47,
+      type: 3}
+  _equipmentRenderer:
+  - EntityId: HaloHat
+    RendererPrefab: {fileID: 1912679698398032372, guid: 1ab22cd9e87c4c442bf16c8ab649ff72,
+      type: 3}
+  - EntityId: BoomerangHat
+    RendererPrefab: {fileID: 55715322505809303, guid: 778ffd6c35374084b9dbf9da28670a27,
+      type: 3}
+  - EntityId: VikingHat
+    RendererPrefab: {fileID: -1590095886553131413, guid: d8b7fd4e0cdf6a04d979e6f1eca5ba30,
+      type: 3}
+  - EntityId: PropellerHat
+    RendererPrefab: {fileID: -6998130747910097794, guid: 4549db4a14690ba40a628a7e728af6ed,
+      type: 3}
+  - EntityId: JetPack 1
+    RendererPrefab: {fileID: 5828199350833255481, guid: 4a64493f194a84e4d894c833ec2ce0fd,
+      type: 3}
+  - EntityId: JetPack 2
+    RendererPrefab: {fileID: 6488258291080751516, guid: ac02782aaeee9cc4698067d24ca87b01,
+      type: 3}
+  - EntityId: JetPack 3
+    RendererPrefab: {fileID: -4412922340550006163, guid: dc3518a8524c9714eb4db12eed72ecaa,
+      type: 3}
+  - EntityId: SpeedBoots
+    RendererPrefab: {fileID: 6386794059054992394, guid: c62b96ae4bd37f54db2dc6db8772f54b,
+      type: 3}
+  - EntityId: WingsBoots
+    RendererPrefab: {fileID: -4861047506681191121, guid: c18577f4f7ebb194095952d9e5578592,
+      type: 3}
+  - EntityId: Armor 1
+    RendererPrefab: {fileID: -8163266241573872746, guid: c49b0639af310e142868c353a55b0ecf,
+      type: 3}
+  - EntityId: Armor 1_FAT
+    RendererPrefab: {fileID: 3492559623385703676, guid: 35132c38ea3220345893ace88b6ae075,
+      type: 3}
+  - EntityId: Armor 2
+    RendererPrefab: {fileID: -8163266241573872746, guid: 0436700d5680d8a42a7c60481af6fe33,
+      type: 3}
+  - EntityId: Armor 2_FAT
+    RendererPrefab: {fileID: 3492559623385703676, guid: c339f699134ebd642838d83c3f2a6835,
+      type: 3}
+  - EntityId: Armor 3
+    RendererPrefab: {fileID: -8163266241573872746, guid: 226b4719a65ade147ae10bea9b41c1b3,
+      type: 3}
+  - EntityId: Armor 3_FAT
+    RendererPrefab: {fileID: 3492559623385703676, guid: 732f03ed8b6cf6e48895bbd8096f1ed3,
+      type: 3}
+  _rendererPrefab: {fileID: 2038502428883187412, guid: a6a4fd975667ac8429ed8bf273dee15a,
+    type: 3}

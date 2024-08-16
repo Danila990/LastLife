@@ -1,0 +1,358 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfabecb43e664c17870210680846aa36, type: 3}
+  m_Name: InAppDatabase
+  m_EditorClassIdentifier: 
+  _products:
+  - InAppID: ticket10
+    Name: ticket10
+    Price:
+      ISO: USD
+      Price: 1.99
+    ProductType: 0
+    SpecificIds: []
+  - InAppID: ticket50
+    Name: ticket50
+    Price:
+      ISO: USD
+      Price: 8.99
+    ProductType: 0
+    SpecificIds: []
+  - InAppID: ticket100
+    Name: ticket100
+    Price:
+      ISO: USD
+      Price: 14.99
+    ProductType: 0
+    SpecificIds: []
+  - InAppID: ticket200
+    Name: ticket200
+    Price:
+      ISO: USD
+      Price: 24.99
+    ProductType: 0
+    SpecificIds: []
+  - InAppID: manak
+    Name: 
+    Price:
+      ISO: USD
+      Price: 5.99
+    ProductType: 1
+    SpecificIds: []
+  - InAppID: manawp
+    Name: 
+    Price:
+      ISO: USD
+      Price: 5.99
+    ProductType: 1
+    SpecificIds: []
+  - InAppID: mancrossbow
+    Name: 
+    Price:
+      ISO: USD
+      Price: 5.99
+    ProductType: 1
+    SpecificIds: []
+  - InAppID: manrifle
+    Name: 
+    Price:
+      ISO: USD
+      Price: 5.99
+    ProductType: 1
+    SpecificIds: []
+  - InAppID: manshotgun
+    Name: 
+    Price:
+      ISO: USD
+      Price: 5.99
+    ProductType: 1
+    SpecificIds: []
+  - InAppID: armorpolice
+    Name: 
+    Price:
+      ISO: USD
+      Price: 1.99
+    ProductType: 1
+    SpecificIds: []
+  - InAppID: armormilitary
+    Name: 
+    Price:
+      ISO: USD
+      Price: 3.49
+    ProductType: 1
+    SpecificIds: []
+  - InAppID: armorspecial
+    Name: 
+    Price:
+      ISO: USD
+      Price: 5.99
+    ProductType: 1
+    SpecificIds: []
+  - InAppID: jetrover
+    Name: 
+    Price:
+      ISO: USD
+      Price: 1.99
+    ProductType: 1
+    SpecificIds: []
+  - InAppID: jetraptor
+    Name: 
+    Price:
+      ISO: USD
+      Price: 3.49
+    ProductType: 1
+    SpecificIds: []
+  - InAppID: jetdrifter
+    Name: 
+    Price:
+      ISO: USD
+      Price: 5.99
+    ProductType: 1
+    SpecificIds: []
+  - InAppID: noads
+    Name: 
+    Price:
+      ISO: USD
+      Price: 1.99
+    ProductType: 1
+    SpecificIds: []
+  - InAppID: bootsspeed
+    Name: 
+    Price:
+      ISO: USD
+      Price: 3.49
+    ProductType: 1
+    SpecificIds: []
+  - InAppID: bootswing
+    Name: 
+    Price:
+      ISO: USD
+      Price: 5.99
+    ProductType: 1
+    SpecificIds: []
+  - InAppID: hathalo
+    Name: 
+    Price:
+      ISO: USD
+      Price: 3.49
+    ProductType: 1
+    SpecificIds: []
+  - InAppID: hatboomerang
+    Name: 
+    Price:
+      ISO: USD
+      Price: 5.99
+    ProductType: 1
+    SpecificIds: []
+  - InAppID: hatpropeller
+    Name: 
+    Price:
+      ISO: USD
+      Price: 3.49
+    ProductType: 1
+    SpecificIds: []
+  - InAppID: hatviking
+    Name: 
+    Price:
+      ISO: USD
+      Price: 5.99
+    ProductType: 1
+    SpecificIds: []
+  - InAppID: boostdamage5
+    Name: boostdamage5
+    Price:
+      ISO: USD
+      Price: 1.99
+    ProductType: 0
+    SpecificIds: []
+  - InAppID: boostdamage10
+    Name: boostdamage10
+    Price:
+      ISO: USD
+      Price: 3.49
+    ProductType: 0
+    SpecificIds: []
+  - InAppID: boostdamage20
+    Name: boostdamage20
+    Price:
+      ISO: USD
+      Price: 5.99
+    ProductType: 0
+    SpecificIds: []
+  - InAppID: boosthealth5
+    Name: boosthealth5
+    Price:
+      ISO: USD
+      Price: 1.99
+    ProductType: 0
+    SpecificIds: []
+  - InAppID: boosthealth10
+    Name: boosthealth10
+    Price:
+      ISO: USD
+      Price: 3.49
+    ProductType: 0
+    SpecificIds: []
+  - InAppID: boosthealth20
+    Name: boosthealth20
+    Price:
+      ISO: USD
+      Price: 5.99
+    ProductType: 0
+    SpecificIds: []
+  - InAppID: boostspeed5
+    Name: boostspeed5
+    Price:
+      ISO: USD
+      Price: 1.99
+    ProductType: 0
+    SpecificIds: []
+  - InAppID: boostspeed10
+    Name: boostspeed10
+    Price:
+      ISO: USD
+      Price: 3.49
+    ProductType: 0
+    SpecificIds: []
+  - InAppID: boostspeed20
+    Name: boostspeed20
+    Price:
+      ISO: USD
+      Price: 5.99
+    ProductType: 0
+    SpecificIds: []
+  - InAppID: boostjump5
+    Name: boostjump5
+    Price:
+      ISO: USD
+      Price: 1.99
+    ProductType: 0
+    SpecificIds: []
+  - InAppID: boostjump10
+    Name: boostjump10
+    Price:
+      ISO: USD
+      Price: 3.49
+    ProductType: 0
+    SpecificIds: []
+  - InAppID: boostjump20
+    Name: boostjump20
+    Price:
+      ISO: USD
+      Price: 5.99
+    ProductType: 0
+    SpecificIds: []
+  - InAppID: goldenticket1
+    Name: goldenticket1
+    Price:
+      ISO: USD
+      Price: 1.99
+    ProductType: 0
+    SpecificIds: []
+  - InAppID: goldenticket5
+    Name: goldenticket5
+    Price:
+      ISO: USD
+      Price: 8.99
+    ProductType: 0
+    SpecificIds: []
+  - InAppID: goldenticket10
+    Name: goldenticket10
+    Price:
+      ISO: USD
+      Price: 14.99
+    ProductType: 0
+    SpecificIds: []
+  - InAppID: goldenticket20
+    Name: goldenticket20
+    Price:
+      ISO: USD
+      Price: 24.99
+    ProductType: 0
+    SpecificIds: []
+  - InAppID: goldenticket50
+    Name: goldenticket50
+    Price:
+      ISO: USD
+      Price: 54.99
+    ProductType: 0
+    SpecificIds: []
+  - InAppID: goldenticket100
+    Name: goldenticket100
+    Price:
+      ISO: USD
+      Price: 99.99
+    ProductType: 0
+    SpecificIds: []
+  - InAppID: bundleexplorer
+    Name: bundleexplorer
+    Price:
+      ISO: USD
+      Price: 5.99
+    ProductType: 1
+    SpecificIds: []
+  - InAppID: bundlefighter
+    Name: bundlefighter
+    Price:
+      ISO: USD
+      Price: 9.99
+    ProductType: 1
+    SpecificIds: []
+  - InAppID: bundlewarrior
+    Name: bundlewarrior
+    Price:
+      ISO: USD
+      Price: 8.99
+    ProductType: 1
+    SpecificIds: []
+  - InAppID: girlsteelfan
+    Name: girlsteelfan
+    Price:
+      ISO: USD
+      Price: 5.99
+    ProductType: 0
+    SpecificIds: []
+  - InAppID: mancannon
+    Name: mancannon
+    Price:
+      ISO: USD
+      Price: 5.99
+    ProductType: 0
+    SpecificIds: []
+  - InAppID: mancatapult
+    Name: mancatapult
+    Price:
+      ISO: USD
+      Price: 5.99
+    ProductType: 0
+    SpecificIds: []
+  - InAppID: girlsai
+    Name: girlsai
+    Price:
+      ISO: USD
+      Price: 5.99
+    ProductType: 0
+    SpecificIds: []
+  - InAppID: minigunman
+    Name: minigunman
+    Price:
+      ISO: USD
+      Price: 5.99
+    ProductType: 0
+    SpecificIds: []
+  - InAppID: flameman
+    Name: flameman
+    Price:
+      ISO: USD
+      Price: 5.99
+    ProductType: 0
+    SpecificIds: []

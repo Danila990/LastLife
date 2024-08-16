@@ -1,0 +1,166 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5588785861465586222
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3522341629101407056}
+  - component: {fileID: 2812947941827896358}
+  - component: {fileID: 3807747972329070418}
+  - component: {fileID: 4099394333549256027}
+  - component: {fileID: 7626305337569452461}
+  - component: {fileID: 8858487154619899286}
+  - component: {fileID: 6256843838510802965}
+  m_Layer: 13
+  m_Name: EquipableItemInteraction
+  m_TagString: Injectable
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3522341629101407056
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5588785861465586222}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: 0.7176396, z: -0, w: 0.6964147}
+  m_LocalPosition: {x: -0.167, y: 0, z: -30.485615}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 91.72, z: 0}
+--- !u!114 &2812947941827896358
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5588785861465586222}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 361e11c875f146dea393122a10c83df3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Interactions: []
+  Providers: []
+  _tipContext: {fileID: 0}
+  MainEntity: {fileID: 0}
+  _injectables:
+  - {fileID: 3807747972329070418}
+--- !u!114 &3807747972329070418
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5588785861465586222}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba30ac2fddaf4f9a9e6f4ade93c8473c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _awaitPlayer: 1
+  _worldButtonKey: AlterSupplyButton
+  _targetTransform: {fileID: 0}
+  TimeToUse: 1
+  InteractDistance: 3
+  Bounds: {fileID: 0}
+  _pickUpSound: {fileID: 8300000, guid: ee1728fa5cbc4654993ee3196860ad2c, type: 3}
+  Offset: {x: 0, y: 0.5, z: 0}
+  DisableUiOnUse: 1
+  UsePlayerSpaceOffset: 0
+  _uiIcon: {fileID: 21300000, guid: 05d80c92723e48a41a2c6c388fc5b8d1, type: 3}
+  _outline: {fileID: 6256843838510802965}
+  _equipmentObject: {fileID: 0}
+  _rotationVelocity: {x: 0, y: 1, z: 0}
+  _cooldownDuration: 2
+  _equipmentDataId: 
+--- !u!114 &4099394333549256027
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5588785861465586222}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d29f015ded164d71bb2b486b3d5e4b2b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _context: {fileID: 0}
+  _interactions:
+  - InteractionType: 1
+    SoInteraction: {fileID: 0}
+    MonoInteraction: {fileID: 3807747972329070418}
+    InteractionKey: 
+    ReferenceData: {fileID: 0}
+    HasPriority: 0
+    Priority: 0
+  - InteractionType: 1
+    SoInteraction: {fileID: 0}
+    MonoInteraction: {fileID: 8858487154619899286}
+    InteractionKey: 
+    ReferenceData: {fileID: 0}
+    HasPriority: 0
+    Priority: 0
+  _unionInteractions: 0
+--- !u!208 &7626305337569452461
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5588785861465586222}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 0.5, y: 0.65, z: 0.5}
+  m_MoveThreshold: 0.1
+  m_Carve: 1
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 0, y: 0, z: 0}
+  m_TimeToStationary: 0.5
+--- !u!114 &8858487154619899286
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5588785861465586222}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e0e582b616648e784ebe153256b099a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BehaviourData: {fileID: 11400000, guid: c219c9d726f8da04d8b57955c67feb52, type: 2}
+--- !u!114 &6256843838510802965
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5588785861465586222}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ca30f5a4856f6e4eac73ca52d165a4e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  outlineMode: 0
+  UseCustomOutlineMaterial: 1
+  customOutlineMaterial: {fileID: 2100000, guid: 2293207110fd2f848b707b3ebd5aa266,
+    type: 2}
+  outlineColor: {r: 1, g: 0.64, b: 0, a: 1}
+  outlineWidth: 3
+  precomputeOutline: 0
+  _selfInit: 0
+  bakeKeys: []
+  bakeValues: []
+  _meshRenderers: []

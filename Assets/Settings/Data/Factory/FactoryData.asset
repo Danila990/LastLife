@@ -1,0 +1,555 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98556d02bb1b4896b955ba4c8e279203, type: 3}
+  m_Name: FactoryData
+  m_EditorClassIdentifier: 
+  _objects:
+  - Key: PistolMan
+    Object: {fileID: 8935683314809496404, guid: 1dc16e30d3ca63544b99e70d82878d9a,
+      type: 3}
+    Type: 0
+  - Key: BaseBox
+    Object: {fileID: 5401269976442155425, guid: eded6cd15235e3f46b1a3c20b3ce3a1f,
+      type: 3}
+    Type: 1
+  - Key: BaseBullet
+    Object: {fileID: 8252380287657489723, guid: 2c411051543ea7a4e8466e0a9c890e8c,
+      type: 3}
+    Type: 2
+  - Key: M16Man
+    Object: {fileID: 8847396480402609316, guid: 7dedb43fafe1eda45aa9eee55b7b688b,
+      type: 3}
+    Type: 0
+  - Key: Granade
+    Object: {fileID: 2573036863640428249, guid: c80176b9873cd504d90d1b6a29e449b8,
+      type: 3}
+    Type: 3
+  - Key: RevolverMan
+    Object: {fileID: 4666626953766710617, guid: bc453aae121878d4a9d485544975f3e2,
+      type: 3}
+    Type: 0
+  - Key: SawedOff
+    Object: {fileID: 37701976213016933, guid: 113798fa7bec68d4a8b3e60abf727e4f, type: 3}
+    Type: 0
+  - Key: SawedOffBullet
+    Object: {fileID: 8252380287657489723, guid: 246949d23116a1c45a08a7e561c599fd,
+      type: 3}
+    Type: 2
+  - Key: PistolBullet
+    Object: {fileID: 8252380287657489723, guid: 197535bed47757b449f1886884f040f3,
+      type: 3}
+    Type: 2
+  - Key: HeadBase
+    Object: {fileID: 2676379448547391789, guid: b39bcd886095459478e024e64e72f2cc,
+      type: 3}
+    Type: 0
+  - Key: RevolverBullet
+    Object: {fileID: 8252380287657489723, guid: 2c411051543ea7a4e8466e0a9c890e8c,
+      type: 3}
+    Type: 2
+  - Key: Tire
+    Object: {fileID: 5401269976442155425, guid: 626240f3388a1c14b9aa040059c24166,
+      type: 3}
+    Type: 1
+  - Key: Barrel
+    Object: {fileID: 5401269976442155425, guid: 5a61fa517f8488a49975e0ae03ce6f76,
+      type: 3}
+    Type: 1
+  - Key: Toilet
+    Object: {fileID: 5401269976442155425, guid: e3724b1f436eeb14388e8bd5fb69a974,
+      type: 3}
+    Type: 1
+  - Key: Plunger
+    Object: {fileID: 5401269976442155425, guid: 1726d8f5a739c4c4089b53a544d1b632,
+      type: 3}
+    Type: 1
+  - Key: PlasmaBullet
+    Object: {fileID: 8252380287657489723, guid: 30732c39ae869bf448923811214ecfec,
+      type: 3}
+    Type: 2
+  - Key: C4
+    Object: {fileID: 2573036863640428249, guid: bf4c83df561cb914c83d9e92988f9286,
+      type: 3}
+    Type: 3
+  - Key: JunkBox
+    Object: {fileID: 5401269976442155425, guid: c8f4d7053980ecf42bfbf3dc70c9cd60,
+      type: 3}
+    Type: 1
+  - Key: TrafficCone
+    Object: {fileID: 5401269976442155425, guid: 245f6f419d6a5454a8a740c270025dc0,
+      type: 3}
+    Type: 1
+  - Key: AKMan
+    Object: {fileID: 37701976213016933, guid: 046d504acac66f1468d5c5f6ae840667, type: 3}
+    Type: 0
+  - Key: AWPMan
+    Object: {fileID: 37701976213016933, guid: faee836bc38ff7246ab82a694b8666a6, type: 3}
+    Type: 0
+  - Key: CrossBowMan
+    Object: {fileID: 37701976213016933, guid: 5c88e99fd9bb2f942aceb168d2a82d40, type: 3}
+    Type: 0
+  - Key: ShootgunMan
+    Object: {fileID: 37701976213016933, guid: 04d447bb4ee10e34f9b3e51360de0625, type: 3}
+    Type: 0
+  - Key: AwpBullet
+    Object: {fileID: 8252380287657489723, guid: 9adec1e1525d04e40ba76c064da7b72d,
+      type: 3}
+    Type: 2
+  - Key: CrossbowBolt
+    Object: {fileID: 8252380287657489723, guid: 366c947e2267bf74eb28dc84e4c3d57b,
+      type: 3}
+    Type: 2
+  - Key: Trolley
+    Object: {fileID: 5401269976442155425, guid: dc5d80f945d44e84fb1fc07e47d54d6a,
+      type: 3}
+    Type: 1
+  - Key: PlasticBorder
+    Object: {fileID: 5401269976442155425, guid: 0ed85779ccaf5234d9f45eb7c99cf801,
+      type: 3}
+    Type: 1
+  - Key: Sphere
+    Object: {fileID: 5401269976442155425, guid: 1c6bf6ad7eba84747bd5c8d1358c3b56,
+      type: 3}
+    Type: 1
+  - Key: SpiderHead
+    Object: {fileID: 2676379448547391789, guid: 5b4790538fce9ad4aa0ea65f053b46f2,
+      type: 3}
+    Type: 0
+  - Key: AkItem
+    Object: {fileID: 5063568259716132201, guid: 15836706d9b37e04c957c86fb56628e8,
+      type: 3}
+    Type: 4
+  - Key: AwpItem
+    Object: {fileID: 5063568259716132201, guid: 2da20b34e00c8004d8fe1b029b248d4f,
+      type: 3}
+    Type: 4
+  - Key: C4Item
+    Object: {fileID: 7225148486436629765, guid: a9a4af73eecf7b04db5cf369a2089564,
+      type: 3}
+    Type: 4
+  - Key: CrossBowItem
+    Object: {fileID: 5063568259716132201, guid: 11aa3dc57dbfff449bb8786b9baa1022,
+      type: 3}
+    Type: 4
+  - Key: GravyGunItem
+    Object: {fileID: 6665226771968764745, guid: f8e80f800c6b7634ab9754571709a7d6,
+      type: 3}
+    Type: 4
+  - Key: GrenadeItem
+    Object: {fileID: 7225148486436629765, guid: 2028d2f1101781d44928b6d01ba08a1e,
+      type: 3}
+    Type: 4
+  - Key: M16Item
+    Object: {fileID: 5063568259716132201, guid: e9d7cbd18943b754a90b79e16d74138f,
+      type: 3}
+    Type: 4
+  - Key: MeleeItem
+    Object: {fileID: 5014154498424405953, guid: 46300c84f217837438f1fa265486d948,
+      type: 3}
+    Type: 4
+  - Key: PistolItem
+    Object: {fileID: 5063568259716132201, guid: 5fc9cc60e6f411e4d81dcca407a3770e,
+      type: 3}
+    Type: 4
+  - Key: PlasmaItem
+    Object: {fileID: 5063568259716132201, guid: 143758d07ab63ae49a3a3b76f6f33850,
+      type: 3}
+    Type: 4
+  - Key: RevolverItem
+    Object: {fileID: 5063568259716132201, guid: feeae31ad346ff34da7ebe50f1602d4e,
+      type: 3}
+    Type: 4
+  - Key: SawedOffItem
+    Object: {fileID: 5063568259716132201, guid: 3764458c18e0224489b42fff1821cd85,
+      type: 3}
+    Type: 4
+  - Key: ShootGunItem
+    Object: {fileID: 5063568259716132201, guid: dda87ffa756493f4c8322a6792dc404e,
+      type: 3}
+    Type: 4
+  - Key: EyePlasma
+    Object: {fileID: 5063568259716132201, guid: 9f59d269ef021d84a84ddb1729de1e0b,
+      type: 3}
+    Type: 4
+  - Key: SpiderGun
+    Object: {fileID: 7225148486436629765, guid: cf4fec778967fe44f9d22088c4d01d1f,
+      type: 3}
+    Type: 4
+  - Key: SpiderGrenade
+    Object: {fileID: 2573036863640428249, guid: 9deb5d55b5d5cd348a81929f82946264,
+      type: 3}
+    Type: 3
+  - Key: LaserMine
+    Object: {fileID: 2573036863640428249, guid: 72b486b867bc0e540980db9647fa93c0,
+      type: 3}
+    Type: 3
+  - Key: LaserMineItem
+    Object: {fileID: 7225148486436629765, guid: 61ee61c7cd2bd6c479627a1c77298613,
+      type: 3}
+    Type: 4
+  - Key: JetHead
+    Object: {fileID: 2676379448547391789, guid: 0ad0a0c2ee36e864d9106075fb66cb1b,
+      type: 3}
+    Type: 0
+  - Key: GunsPlasma
+    Object: {fileID: 5063568259716132201, guid: ae63a09ced962534a908ade88ec47d4f,
+      type: 3}
+    Type: 4
+  - Key: JetBomb
+    Object: {fileID: 9148359375166700789, guid: 271244de93fe15a45955cd6eb23401aa,
+      type: 3}
+    Type: 0
+  - Key: SpawnJetBombItem
+    Object: {fileID: 2380740681735645151, guid: d793ad81e5a47a34d9df3386d2b8bc63,
+      type: 3}
+    Type: 4
+  - Key: KnifeProjectile
+    Object: {fileID: 8252380287657489723, guid: ccf501f782c20c54abcff8ce84f08991,
+      type: 3}
+    Type: 2
+  - Key: TaserBullet
+    Object: {fileID: 8252380287657489723, guid: 82146f2ace2bc8e4ab293df45ffc8725,
+      type: 3}
+    Type: 2
+  - Key: CrossbowExplosiveBolt
+    Object: {fileID: 8252380287657489723, guid: 74a4a10a27caa734db27051854c40100,
+      type: 3}
+    Type: 2
+  - Key: RocketProjectile
+    Object: {fileID: 8252380287657489723, guid: b658030f3724ce143914db33d591da57,
+      type: 3}
+    Type: 2
+  - Key: EmpGranade
+    Object: {fileID: 2573036863640428249, guid: 11231f5a43620334b97ff12cc3e0054c,
+      type: 3}
+    Type: 3
+  - Key: UnderBarrelGranade
+    Object: {fileID: 2573036863640428249, guid: 859c5e18b3e5ee644815ba27e9006134,
+      type: 3}
+    Type: 3
+  - Key: HeadBird
+    Object: {fileID: 2676379448547391789, guid: 2e73cc3f5c1688e43a4f0e20eed78bd9,
+      type: 3}
+    Type: 0
+  - Key: Shotgun_Shield
+    Object: {fileID: 2601897688238847912, guid: 93644edd2afeacc4284e20a569482771,
+      type: 3}
+    Type: 1
+  - Key: BirdEgg
+    Object: {fileID: 9148359375166700789, guid: 507852ceddfc44b42a68d4cef44b49c6,
+      type: 3}
+    Type: 0
+  - Key: MiniBird
+    Object: {fileID: 9148359375166700789, guid: 2414cdc464557d54696af0cc4a9ae42f,
+      type: 3}
+    Type: 0
+  - Key: JetPack 1
+    Object: {fileID: 2165425040309181621, guid: 26adc9e9adef36d4fa315da616af8893,
+      type: 3}
+    Type: 5
+  - Key: JetPack 2
+    Object: {fileID: 2165425040309181621, guid: 4e7ea58ea5e5efd4a8065e01e26f8a27,
+      type: 3}
+    Type: 5
+  - Key: JetPack 3
+    Object: {fileID: 2165425040309181621, guid: 0bb38f0c9c8e31c45b59b124bae4696b,
+      type: 3}
+    Type: 5
+  - Key: Armor 1
+    Object: {fileID: 8729773909248348725, guid: b57b66aeb13122340b6370a76cf0c7cb,
+      type: 3}
+    Type: 5
+  - Key: Armor 1_FAT
+    Object: {fileID: 3689389008706083677, guid: 24729f048eaa9584cb6876e72c28b4a9,
+      type: 3}
+    Type: 5
+  - Key: Armor 2
+    Object: {fileID: 459250923317743804, guid: 6a867b47f3acbb74890f1e29b4418f7f, type: 3}
+    Type: 5
+  - Key: Armor 2_FAT
+    Object: {fileID: 3196794126469497430, guid: c9a6991c002ffae43acdc95412ca5f4e,
+      type: 3}
+    Type: 5
+  - Key: Armor 3
+    Object: {fileID: 602493019673521446, guid: 9be4292753079024c9db65d547a5d8c3, type: 3}
+    Type: 5
+  - Key: Armor 3_FAT
+    Object: {fileID: 519979009650391643, guid: ee5f36ff1ac84904ebcdfae4f18385ce, type: 3}
+    Type: 5
+  - Key: LaserMineLoot
+    Object: {fileID: 7113615445272017281, guid: e35687a8bfad33044924818d01045c12,
+      type: 3}
+    Type: 6
+  - Key: GrenadeLoot
+    Object: {fileID: 7113615445272017281, guid: 2b8afce0594f637468dceb4abc2d6956,
+      type: 3}
+    Type: 6
+  - Key: C4Loot
+    Object: {fileID: 7113615445272017281, guid: 400fd05ebf78d0a40ad40560477459e3,
+      type: 3}
+    Type: 6
+  - Key: TicketLoot
+    Object: {fileID: 1277099654247666471, guid: 055974b004eb7f64786a969c48720485,
+      type: 3}
+    Type: 6
+  - Key: UniqueTicketLoot3
+    Object: {fileID: 1277099654247666471, guid: 11790bccd8312ea4589242200cc8825c,
+      type: 3}
+    Type: 6
+  - Key: FuelBarrel
+    Object: {fileID: 706934502185389152, guid: d66f0a90813ca624ca539adfc8e2814a, type: 3}
+    Type: 4
+  - Key: DebKanister
+    Object: {fileID: 706934502185389152, guid: c297ea31d3b173445aa7173eaf46eeee, type: 3}
+    Type: 0
+  - Key: Banker
+    Object: {fileID: 1230871201887550219, guid: 1e985c88ddbd2294aa68c97620e48941,
+      type: 3}
+    Type: 0
+  - Key: RepairMan
+    Object: {fileID: 1230871201887550219, guid: bf198c065efcd484d864c747cfc08165,
+      type: 3}
+    Type: 0
+  - Key: BlogerWoman
+    Object: {fileID: 1230871201887550219, guid: 05b81a7d8387c3942a4490574bd26ed7,
+      type: 3}
+    Type: 0
+  - Key: DamageBoostLoot
+    Object: {fileID: -2626216787110541410, guid: 75ea228ebeeeccd41abc90712bc55528,
+      type: 3}
+    Type: 6
+  - Key: HpBoostLoot
+    Object: {fileID: 7471474856117493859, guid: 857c04ca9205a424287c72dd15deb5b5,
+      type: 3}
+    Type: 6
+  - Key: JumpBoostLoot
+    Object: {fileID: 3729101329662153848, guid: da199c9585b87a144b08fcbc934fb019,
+      type: 3}
+    Type: 6
+  - Key: SpeedBoostLoot
+    Object: {fileID: 8731664039985750726, guid: d4a7d8106d88e5446aa2d33dd4161cf8,
+      type: 3}
+    Type: 6
+  - Key: DamageBoostPickUp
+    Object: {fileID: 252380963461694960, guid: 0d0e89273dcab63448763fac96257aae, type: 3}
+    Type: 0
+  - Key: HpBoostPickUp
+    Object: {fileID: 2722524471454113876, guid: af99f57d79046554da3a737ba8ee3217,
+      type: 3}
+    Type: 0
+  - Key: JumpBoostPickUp
+    Object: {fileID: 788590810202520679, guid: f2d024c1f9cdf6e4d817c96484506b2c, type: 3}
+    Type: 0
+  - Key: SpeedUpBoostPickUp
+    Object: {fileID: 5512014450396104858, guid: aa2ee699f623d824683d447874edf089,
+      type: 3}
+    Type: 0
+  - Key: BoostInventoryItem
+    Object: {fileID: 4288476475396827466, guid: a9fdd3628544e3347ae8cfb8bf3114ab,
+      type: 3}
+    Type: 4
+  - Key: SpeedBoots
+    Object: {fileID: 5770923488159162670, guid: d3fb7db48bf23874a85c36540ea56137,
+      type: 3}
+    Type: 5
+  - Key: WingsBoots
+    Object: {fileID: 1218355128055282065, guid: 3dde1cb073bd31e4b9bd0bb4224d83d6,
+      type: 3}
+    Type: 5
+  - Key: HaloHat
+    Object: {fileID: 1912679698398032372, guid: 59b904007229dec4996c9a644a52f935,
+      type: 3}
+    Type: 5
+  - Key: BoomerangHat
+    Object: {fileID: 1912679698398032372, guid: 6eaa2cbc180c43c42b8901aba3d11b95,
+      type: 3}
+    Type: 5
+  - Key: MiniBirdDummy
+    Object: {fileID: 7618481374309963390, guid: 94e885fe9caed4742adfe2abac55e708,
+      type: 3}
+    Type: 0
+  - Key: PropellerHat
+    Object: {fileID: 952556598103521282, guid: f746bc451feea9c42b9e63d1a68de881, type: 3}
+    Type: 5
+  - Key: VikingHat
+    Object: {fileID: 7528212526272917777, guid: 972814f8772868c4ca473db3bc47aa6e,
+      type: 3}
+    Type: 5
+  - Key: TraiderItems
+    Object: {fileID: 1230871201887550219, guid: 4ddaeffa516345a4c98d3001d5626650,
+      type: 3}
+    Type: 0
+  - Key: TraiderModify
+    Object: {fileID: 1230871201887550219, guid: 0fbd9938d0453ef4c94bf70641be661e,
+      type: 3}
+    Type: 0
+  - Key: Dummy
+    Object: {fileID: 5212165584288559508, guid: 7fd10795982fe9142adbd1388f982fed,
+      type: 3}
+    Type: 1
+  - Key: C4Box
+    Object: {fileID: -5951985490165986478, guid: 31f8732c523c2af42a4c8975ec3681da,
+      type: 3}
+    Type: 1
+  - Key: GrenadeBox
+    Object: {fileID: -5203738527890689677, guid: cadbaff5dbf4449408f5c48f4c7c62d0,
+      type: 3}
+    Type: 1
+  - Key: LaserMineBox
+    Object: {fileID: 5908411841699977383, guid: d5227bca724cd2042be3f6180d1c7b06,
+      type: 3}
+    Type: 1
+  - Key: RocketLauncher
+    Object: {fileID: 8102037903336542791, guid: 8012c91ffe04e1b48a4297235c436044,
+      type: 3}
+    Type: 1
+  - Key: FuelInteraction
+    Object: {fileID: 8277022621640459391, guid: 6a45ca56c28023f47ac10a0de45bb1dd,
+      type: 3}
+    Type: 1
+  - Key: Armor1_Interaction
+    Object: {fileID: 2333865382856979921, guid: 698213f2f9ca03944af2febabf41a22d,
+      type: 3}
+    Type: 1
+  - Key: Armor2_Interaction
+    Object: {fileID: 2333865382856979921, guid: 35976a088f5d7104c964c33622c9669f,
+      type: 3}
+    Type: 1
+  - Key: Armor3_Interaction
+    Object: {fileID: 2333865382856979921, guid: 8d2a373315a5267479cca60920ac1174,
+      type: 3}
+    Type: 1
+  - Key: Hat1_Interaction
+    Object: {fileID: 2333865382856979921, guid: f4ad5bd0eb3583b4bb80be192bdba38e,
+      type: 3}
+    Type: 1
+  - Key: Hat2_Interaction
+    Object: {fileID: 2333865382856979921, guid: ac43f466eeac2d54496b7a52f60a47a5,
+      type: 3}
+    Type: 1
+  - Key: Hat3_Interaction
+    Object: {fileID: 2333865382856979921, guid: 40424cb580bc8394389d1fa49117fed7,
+      type: 3}
+    Type: 1
+  - Key: Hat4_Interaction
+    Object: {fileID: 2333865382856979921, guid: 747abc7f6cd1c8b4282a93f9afdc98ac,
+      type: 3}
+    Type: 1
+  - Key: JetPack1_Interaction
+    Object: {fileID: 2333865382856979921, guid: b2b0ae1415c1fa241b1043bc1d3aa543,
+      type: 3}
+    Type: 1
+  - Key: JetPack2_Interaction
+    Object: {fileID: 2333865382856979921, guid: b2b0ae1415c1fa241b1043bc1d3aa543,
+      type: 3}
+    Type: 1
+  - Key: JetPack3_Interaction
+    Object: {fileID: 2333865382856979921, guid: b2b0ae1415c1fa241b1043bc1d3aa543,
+      type: 3}
+    Type: 1
+  - Key: Shoes1_Interaction
+    Object: {fileID: 2333865382856979921, guid: 0a6c68ea47162e646a59810efe932848,
+      type: 3}
+    Type: 1
+  - Key: Shoes2_Interaction
+    Object: {fileID: 2333865382856979921, guid: 6da4165641a5dcc4fb330276a5e1157b,
+      type: 3}
+    Type: 1
+  - Key: PlantLaserMineTrigger
+    Object: {fileID: 825091212139402655, guid: a1ed11c822688ad48bbbda4516017b26, type: 3}
+    Type: 1
+  - Key: SubwayDoors
+    Object: {fileID: 7479305879812021562, guid: 594ea0a74b0297142810a30dc5352f92,
+      type: 3}
+    Type: 1
+  - Key: Catapultman
+    Object: {fileID: 8847396480402609316, guid: 6484ad978992e6a4eb0db266a368659e,
+      type: 3}
+    Type: 0
+  - Key: SteelFanGirl
+    Object: {fileID: 37701976213016933, guid: d849779b4073fbd4b912b6c4af3553b6, type: 3}
+    Type: 0
+  - Key: CannonMan
+    Object: {fileID: 8935683314809496404, guid: bbfcb618aedc2f445a18b5050a978866,
+      type: 3}
+    Type: 0
+  - Key: CannonItem
+    Object: {fileID: 5063568259716132201, guid: 63df7723a50387747b45bc541ebc78d7,
+      type: 3}
+    Type: 4
+  - Key: CannonBall
+    Object: {fileID: 8252380287657489723, guid: 2333258fadc3f53418b53741073b45ef,
+      type: 3}
+    Type: 2
+  - Key: CatapultItem
+    Object: {fileID: 5063568259716132201, guid: e245957f2305fd246b2b678879cc05bb,
+      type: 3}
+    Type: 4
+  - Key: CatapultBall
+    Object: {fileID: 8252380287657489723, guid: 48630efe01cb84b47b02e43d26f19979,
+      type: 3}
+    Type: 2
+  - Key: SteelFanItem
+    Object: {fileID: 5063568259716132201, guid: 3959cda47c9c0114bbf817fc5435db80,
+      type: 3}
+    Type: 4
+  - Key: SteelFan
+    Object: {fileID: 8252380287657489723, guid: 3331dfa8e4ae5c74bbe61d810d135c4a,
+      type: 3}
+    Type: 2
+  - Key: SaiGirl
+    Object: {fileID: 37701976213016933, guid: 87e3563fbd5f3bf44a772b373a6a9de4, type: 3}
+    Type: 0
+  - Key: SaiItem
+    Object: {fileID: 5063568259716132201, guid: 8cc52d9678b831340b4a0a7f48c1035c,
+      type: 3}
+    Type: 4
+  - Key: Sai
+    Object: {fileID: 8252380287657489723, guid: 8eb4a25266ee0214592eaca30d60b05e,
+      type: 3}
+    Type: 2
+  - Key: SaiExplosive
+    Object: {fileID: 8252380287657489723, guid: 5d495de7d4ccdd14ebcaddff6777d184,
+      type: 3}
+    Type: 2
+  - Key: MinigunMan
+    Object: {fileID: 8935683314809496404, guid: cd70f531fd4ff9b48af4fb1be7f95e9f,
+      type: 3}
+    Type: 0
+  - Key: MinigunItem
+    Object: {fileID: -5344795666057746552, guid: 407b6969b1a54c74397042bbe80a244a,
+      type: 3}
+    Type: 4
+  - Key: MinigunBullet
+    Object: {fileID: 8252380287657489723, guid: d81b5d9abdeda3f4ca5ee95a1da037dc,
+      type: 3}
+    Type: 2
+  - Key: FlameMan
+    Object: {fileID: 8935683314809496404, guid: 6851884eea1e0c443b082a10dbf7ae34,
+      type: 3}
+    Type: 0
+  - Key: FlameBullet
+    Object: {fileID: 7552951199066622916, guid: f7b49a1ae96d1434b9d9161dba7529d6,
+      type: 3}
+    Type: 2
+  - Key: FlameItem
+    Object: {fileID: 5063568259716132201, guid: 9ee6d6306d6e7f24193ebfc056fbc9f1,
+      type: 3}
+    Type: 4
+  - Key: TriMech
+    Object: {fileID: 4329379743598707153, guid: 57912f5b63bb181468d0453f83726b83,
+      type: 3}
+    Type: 7
+  - Key: MechMeleeItem
+    Object: {fileID: 5014154498424405953, guid: 518b2f4cb59aaa841a206f4f49f3af51,
+      type: 3}
+    Type: 4

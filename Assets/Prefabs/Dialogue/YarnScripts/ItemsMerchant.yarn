@@ -1,0 +1,35 @@
+﻿title: MerchantItems_Start
+position: -554,-353
+---
+
+
+<<camera MerchantItemsCamera>>
+MerchMan: Good day.
+MerchMan: What can I do for you?
+<<jump MerchantItems_ShopWindow>>
+===
+
+title: MerchantItems_Menu
+position: -417,-157
+---
+    [Header]What can I do for you?[/Header]
+    // -> Sugar Babe: Ask Information
+    //     <<jump BlogerWoman_AskInformation>>
+    -> MerchMan: Buy Equipment
+        <<jump MerchantItems_ShopWindow>>
+===
+
+
+title: MerchantItems_ShopWindow
+position: -71,-206
+---
+
+<<modifiersShop "Equipment" "SimpleItemCollection" "" "Buy">>
+<<if boughtItems()>>
+MerchMan: Awesome!
+<<else>>
+MerchMan: Good bye
+<<endif>>
+
+<<jump MerchantItems_Menu>>
+===

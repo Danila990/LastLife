@@ -1,0 +1,286 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4963edf142e34c82aab9519eaeb7ae1a, type: 3}
+  m_Name: Arena 0
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  _treeData:
+    Id: arena_0
+    Name: ARENA QUEST
+  _questData:
+  - MainData:
+      Description: Take Grenades
+      DisplayData:
+        OverrideForList: 0
+        OverridenListWidth: 0
+        OverrideForWidget: 0
+        OverridenWidgetWidth: 0
+        Rotation: {x: 0, y: 0, z: 0}
+      Icon: {fileID: 21300000, guid: 556df9309290c454b985a9678e622747, type: 3}
+      Priority: 1
+      PriorityMult: 1
+    ImplementationData:
+      FinalNode:
+        Id: INT
+        Value: 1
+        InitialValue: 0
+      AnalyticId: take_supply_grenades
+      InlineId: Root/Take/Supply/GrenadeItem/INT
+      MidNodes:
+      - Id: Take
+      - Id: Supply
+      - Id: GrenadeItem
+  - MainData:
+      Description: Equip body armor
+      DisplayData:
+        OverrideForList: 1
+        OverridenListWidth: 52
+        OverrideForWidget: 1
+        OverridenWidgetWidth: 58
+        Rotation: {x: 0, y: 0, z: 0}
+      Icon: {fileID: 21300000, guid: 05d80c92723e48a41a2c6c388fc5b8d1, type: 3}
+      Priority: 1
+      PriorityMult: 1
+    ImplementationData:
+      FinalNode:
+        Id: INT
+        Value: 1
+        InitialValue: 0
+      AnalyticId: take_equipment_armor
+      InlineId: Root/Take/Equipment/Armor 1/INT
+      MidNodes:
+      - Id: Take
+      - Id: Equipment
+      - Id: Armor 1
+  - MainData:
+      Description: Spawn metal ball
+      DisplayData:
+        OverrideForList: 0
+        OverridenListWidth: 0
+        OverrideForWidget: 0
+        OverridenWidgetWidth: 0
+        Rotation: {x: 0, y: 0, z: 0}
+      Icon: {fileID: 21300000, guid: b8655df7d3d6c384ea45c368c60dad66, type: 3}
+      Priority: 1
+      PriorityMult: 1
+    ImplementationData:
+      FinalNode:
+        Id: INT
+        Value: 1
+        InitialValue: 0
+      AnalyticId: spawn_sphere
+      InlineId: Root/Spawn/Prop/sphere/INT
+      MidNodes:
+      - Id: Spawn
+      - Id: Prop
+      - Id: sphere
+  - MainData:
+      Description: Spawn NPC
+      DisplayData:
+        OverrideForList: 0
+        OverridenListWidth: 0
+        OverrideForWidget: 1
+        OverridenWidgetWidth: 70
+        Rotation: {x: 0, y: 0, z: 0}
+      Icon: {fileID: 21300000, guid: e879fe55d36c48f41a822c29402bd73e, type: 3}
+      Priority: 1
+      PriorityMult: 1
+    ImplementationData:
+      FinalNode:
+        Id: INT
+        Value: 1
+        InitialValue: 0
+      AnalyticId: spawn_npc
+      InlineId: Root/Spawn/Npc/INT
+      MidNodes:
+      - Id: Spawn
+      - Id: Npc
+  - MainData:
+      Description: Kill BOSS - Hungry Head
+      DisplayData:
+        OverrideForList: 1
+        OverridenListWidth: 48
+        OverrideForWidget: 1
+        OverridenWidgetWidth: 56
+        Rotation: {x: 0, y: 0, z: 0}
+      Icon: {fileID: 21300000, guid: b92db5a105c54ff49b259d6d2eafd202, type: 3}
+      Priority: 1
+      PriorityMult: 3
+    ImplementationData:
+      FinalNode:
+        Id: INT
+        Value: 1
+        InitialValue: 0
+      AnalyticId: kill_hungryhead
+      InlineId: Root/Kill/Boss/HeadBase/INT
+      MidNodes:
+      - Id: Kill
+      - Id: Boss
+      - Id: HeadBase
+  - MainData:
+      Description: Upgrade your character's skill
+      DisplayData:
+        OverrideForList: 0
+        OverridenListWidth: 0
+        OverrideForWidget: 1
+        OverridenWidgetWidth: 72
+        Rotation: {x: 0, y: 0, z: 0}
+      Icon: {fileID: 21300000, guid: c3549e0fb754d544dafc3aa022cd0e94, type: 3}
+      Priority: 1
+      PriorityMult: 1
+    ImplementationData:
+      FinalNode:
+        Id: INT
+        Value: 1
+        InitialValue: 0
+      AnalyticId: upgrade_skill
+      InlineId: Root/Upgrade/Skill/INT
+      MidNodes:
+      - Id: Upgrade
+      - Id: Skill
+  - MainData:
+      Description: Take Laser Mine
+      DisplayData:
+        OverrideForList: 0
+        OverridenListWidth: 0
+        OverrideForWidget: 1
+        OverridenWidgetWidth: 72
+        Rotation: {x: 0, y: 0, z: 0}
+      Icon: {fileID: 21300000, guid: 8891b06e011cdd344b60b9391bf29506, type: 3}
+      Priority: 1
+      PriorityMult: 1
+    ImplementationData:
+      FinalNode:
+        Id: INT
+        Value: 1
+        InitialValue: 0
+      AnalyticId: take_supply_lasermine
+      InlineId: Root/Take/Supply/LaserMineItem/INT
+      MidNodes:
+      - Id: Take
+      - Id: Supply
+      - Id: LaserMineItem
+  - MainData:
+      Description: Put laser mine at boss exit
+      DisplayData:
+        OverrideForList: 0
+        OverridenListWidth: 0
+        OverrideForWidget: 0
+        OverridenWidgetWidth: 0
+        Rotation: {x: 0, y: 0, z: 0}
+      Icon: {fileID: 21300000, guid: 8891b06e011cdd344b60b9391bf29506, type: 3}
+      Priority: 1
+      PriorityMult: 1
+    ImplementationData:
+      FinalNode:
+        Id: INT
+        Value: 1
+        InitialValue: 0
+      AnalyticId: plant_lasermine
+      InlineId: Root/Plant/LaserMineItem/INT
+      MidNodes:
+      - Id: Plant
+      - Id: LaserMineItem
+  - MainData:
+      Description: Clam character in lucky spin
+      DisplayData:
+        OverrideForList: 1
+        OverridenListWidth: 57
+        OverrideForWidget: 1
+        OverridenWidgetWidth: 66
+        Rotation: {x: 0, y: 0, z: 180}
+      Icon: {fileID: 21300000, guid: 8776d360ae7f3ef4ba43e0f9d390b02b, type: 3}
+      Priority: 1
+      PriorityMult: 1
+    ImplementationData:
+      FinalNode:
+        Id: INT
+        Value: 1
+        InitialValue: 0
+      AnalyticId: take_lackyspin
+      InlineId: Root/Take/LuckySpin/INT
+      MidNodes:
+      - Id: Take
+      - Id: LuckySpin
+  - MainData:
+      Description: Equip halo hat
+      DisplayData:
+        OverrideForList: 0
+        OverridenListWidth: 0
+        OverrideForWidget: 0
+        OverridenWidgetWidth: 0
+        Rotation: {x: 0, y: 0, z: 0}
+      Icon: {fileID: 21300000, guid: c7ad810378351b84091184d2b93cf8d7, type: 3}
+      Priority: 1
+      PriorityMult: 1
+    ImplementationData:
+      FinalNode:
+        Id: INT
+        Value: 1
+        InitialValue: 0
+      AnalyticId: take_equipment_halo
+      InlineId: Root/Take/Equipment/HaloHat/INT
+      MidNodes:
+      - Id: Take
+      - Id: Equipment
+      - Id: HaloHat
+  - MainData:
+      Description: Kill BOSS - Spider Head
+      DisplayData:
+        OverrideForList: 1
+        OverridenListWidth: 48
+        OverrideForWidget: 1
+        OverridenWidgetWidth: 56
+        Rotation: {x: 0, y: 0, z: 0}
+      Icon: {fileID: 21300000, guid: b92db5a105c54ff49b259d6d2eafd202, type: 3}
+      Priority: 1
+      PriorityMult: 3
+    ImplementationData:
+      FinalNode:
+        Id: INT
+        Value: 1
+        InitialValue: 0
+      AnalyticId: kill_spiderhead
+      InlineId: Root/Kill/Boss/SpiderHead/INT
+      MidNodes:
+      - Id: Kill
+      - Id: Boss
+      - Id: SpiderHead
+  - MainData:
+      Description: Take free ticket in shop
+      DisplayData:
+        OverrideForList: 0
+        OverridenListWidth: 0
+        OverrideForWidget: 1
+        OverridenWidgetWidth: 67
+        Rotation: {x: 0, y: 0, z: 0}
+      Icon: {fileID: 21300000, guid: e930fda9f2feaf349bbb4bca2cf0d7ef, type: 3}
+      Priority: 1
+      PriorityMult: 1
+    ImplementationData:
+      FinalNode:
+        Id: INT
+        Value: 1
+        InitialValue: 0
+      AnalyticId: take_freeticket
+      InlineId: Root/Take/FreeTicket/INT
+      MidNodes:
+      - Id: Take
+      - Id: FreeTicket

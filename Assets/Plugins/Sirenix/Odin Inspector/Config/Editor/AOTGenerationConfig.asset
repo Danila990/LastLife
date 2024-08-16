@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1726182683, guid: a4865f1ab4504ed8a368670db22f409c, type: 3}
+  m_Name: AOTGenerationConfig
+  m_EditorClassIdentifier: 
+  automateBeforeBuilds: 1
+  deleteDllAfterBuilds: 1
+  AutomateForAllAOTPlatforms: 1
+  automateForPlatforms: 09000000140000000d000000
+  lastScan: 638593280477603920
+  supportSerializedTypes:
+  - TypeName: UnityEngine.AudioClip, UnityEngine.AudioModule
+    IsCustom: 0
+    Emit: 1
+  - TypeName: UnityEngine.AudioClip[], UnityEngine.AudioModule
+    IsCustom: 0
+    Emit: 1
+  - TypeName: UnityEngine.AudioRolloffMode, UnityEngine.AudioModule
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.Dictionary`2[[UnityEngine.PhysicMaterial,
+      UnityEngine.PhysicsModule],[Core.Entity.Step.FootstepSettings, User]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: Core.Entity.EntityUpgrade.Upgrades.Abs.EntityUpgradeParameters, User
+    IsCustom: 0
+    Emit: 1
+  - TypeName: Core.Entity.EntityUpgrade.Upgrades.Abs.EntityUpgradeParameters[], User
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Single, mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Single[], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: Core.Entity.Step.FootstepSettings, User
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.IEqualityComparer`1[[UnityEngine.PhysicMaterial,
+      UnityEngine.PhysicsModule]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: VFX.IVfxComponent, User
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.List`1[[VFX.IVfxComponent, User]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.Collections.Generic.ObjectEqualityComparer`1[[UnityEngine.PhysicMaterial,
+      UnityEngine.PhysicsModule]], mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: UnityEngine.PhysicMaterial, UnityEngine.PhysicsModule
+    IsCustom: 0
+    Emit: 1
+  - TypeName: System.String, mscorlib
+    IsCustom: 0
+    Emit: 1
+  - TypeName: Core.Entity.EntityUpgrade.Upgrades.Impl.WeaponParameterUpgradeParameters,
+      User
+    IsCustom: 0
+    Emit: 1

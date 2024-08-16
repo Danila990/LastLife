@@ -1,0 +1,97 @@
+﻿title: Banker_Start
+position: -554,-353
+---
+
+
+<<camera CamPos1>>
+Banker: Good day.  Welcome to the Last Life Bank.
+Banker: What can I do for you?
+<<jump Banker_Menu>>
+===
+
+title: Banker_Menu
+position: -417,-157
+---
+    [Header]What can I do for you?[/Header]
+    -> Banker: Ask Information
+        <<jump Banker_AskInformation>>
+    -> Banker: Deposit / Withdraw tickets
+        <<jump Banker_Deposit>>
+    -> Banker: Exchange tickets
+        <<jump Banker_Exchange>>
+    -> Banker: See your account
+        <<jump Banker_AccountView>>
+===
+
+title: Banker_AskInformation
+position: -722,-117
+---
+    [Header]Ask Information[/Header]
+    -> What is deposit?
+        Banker: Deposit is a great way to increase your wealth!
+        Banker: You can make a deposit in Golden tickets only. 
+        <<jump Banker_Menu>>
+    -> What is exchange rate?
+        Banker: 1 <sprite=1> = 10 <sprite=0>. 1 Golden ticket = 10 Regular tickets
+        <<jump Banker_Menu>>
+    -> [Back/]
+        <<jump Banker_Menu>>
+===
+
+
+title: Banker_Deposit
+position: -96,-366
+---
+// <<if goldTicketCount() <= 0 >>
+//     Banker: Sorry, you don't have any gold tickets!
+//     <<jump Banker_Menu>>
+// <<endif>>
+    [Header]Deposit / Withdraw tickets[/Header]
+    -> Deposit
+        <<depositGoldTickets "Deposit Golden tickets" "Your Account">>
+    -> Withdraw
+        <<withdrawGoldTickets "Withdraw Golden tickets" "Your Account">>
+    -> [Back/]
+        <<jump Banker_Menu>>
+
+//Banker: Done!
+<<jump Banker_Menu>>
+===
+
+title: Banker_Exchange
+position: -71,-206
+---
+
+    [Header]Exchange tickets[/Header]
+    -> <sprite=1> -> <sprite=0>  Golden to Regular
+        <<goldenToCommon "Sell Golden tickets" "Banker">>
+    -> <sprite=0> -> <sprite=1>  Regular to Golden
+        <<commonToGold "Buy Golden tickets" "Banker">>
+    -> [Back/]
+        <<jump Banker_Menu>>
+
+//Banker: Done!
+<<jump Banker_Menu>>
+===
+
+
+title: Banker_AccountView
+position: -521,241
+---
+
+Banker: On Your account: {goldTicketInBankCount()} <sprite=1>
+<<jump Banker_Menu>>
+===
+
+title: Banker_GoodBye
+position: 151,3
+---
+
+<<if random() > 0.5 >>
+    Banker: Done!
+<<elseif random() > 0.5 >>
+    Banker: Finished!
+<<else>>
+    Banker: Completed!
+<<endif>>
+===

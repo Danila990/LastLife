@@ -1,0 +1,107 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 730235938c33421d9a5d0eb39184db8a, type: 3}
+  m_Name: SpiderHead_Meat_DBD
+  m_EditorClassIdentifier: 
+  Behaviours:
+  - Type: 0
+    BlockInteraction: 0
+    UseSoundsArray: 0
+    HitSound: {fileID: 8300000, guid: a8cb5bc804403904fa352790db52f0ee, type: 3}
+    HitSounds: []
+    ParticleKey: blood_spray
+    DamageMultiply: 1
+    BloodLossAmountMultiply: 1
+    BloodLossTimeMultiply: 1
+    KnockOutMultiply: 1
+    HitForceMultiply: 1
+    UnpinMultiply: 1
+    DismemberMultiply: 0
+  - Type: 1
+    BlockInteraction: 0
+    UseSoundsArray: 0
+    HitSound: {fileID: 8300000, guid: a8cb5bc804403904fa352790db52f0ee, type: 3}
+    HitSounds: []
+    ParticleKey: blood_spray
+    DamageMultiply: 1
+    BloodLossAmountMultiply: 1
+    BloodLossTimeMultiply: 1
+    KnockOutMultiply: 1
+    HitForceMultiply: 1
+    UnpinMultiply: 1
+    DismemberMultiply: 0
+  - Type: 3
+    BlockInteraction: 0
+    UseSoundsArray: 0
+    HitSound: {fileID: 8300000, guid: f33e9e52a47c21242ace0c64814a2998, type: 3}
+    HitSounds: []
+    ParticleKey: blood_spray
+    DamageMultiply: 1
+    BloodLossAmountMultiply: 1
+    BloodLossTimeMultiply: 1
+    KnockOutMultiply: 1
+    HitForceMultiply: 1
+    UnpinMultiply: 1
+    DismemberMultiply: 0
+  - Type: 2
+    BlockInteraction: 0
+    UseSoundsArray: 0
+    HitSound: {fileID: 8300000, guid: f33e9e52a47c21242ace0c64814a2998, type: 3}
+    HitSounds: []
+    ParticleKey: blood_spray
+    DamageMultiply: 2
+    BloodLossAmountMultiply: 0
+    BloodLossTimeMultiply: 0
+    KnockOutMultiply: 0
+    HitForceMultiply: 0.3
+    UnpinMultiply: 0
+    DismemberMultiply: 0
+  - Type: 4
+    BlockInteraction: 0
+    UseSoundsArray: 0
+    HitSound: {fileID: 0}
+    HitSounds: []
+    ParticleKey: blood_spray
+    DamageMultiply: 1
+    BloodLossAmountMultiply: 1
+    BloodLossTimeMultiply: 1
+    KnockOutMultiply: 1
+    HitForceMultiply: 1
+    UnpinMultiply: 1
+    DismemberMultiply: 1
+  - Type: 6
+    BlockInteraction: 0
+    UseSoundsArray: 0
+    HitSound: {fileID: 8300000, guid: f33e9e52a47c21242ace0c64814a2998, type: 3}
+    HitSounds: []
+    ParticleKey: blood_spray
+    DamageMultiply: 1
+    BloodLossAmountMultiply: 1
+    BloodLossTimeMultiply: 1
+    KnockOutMultiply: 1
+    HitForceMultiply: 1
+    UnpinMultiply: 1
+    DismemberMultiply: 0
+  Fallback:
+    Type: 0
+    BlockInteraction: 1
+    UseSoundsArray: 0
+    HitSound: {fileID: 8300000, guid: a8cb5bc804403904fa352790db52f0ee, type: 3}
+    HitSounds: []
+    ParticleKey: blood_spray
+    DamageMultiply: 1
+    BloodLossAmountMultiply: 1
+    BloodLossTimeMultiply: 1
+    KnockOutMultiply: 1
+    HitForceMultiply: 1
+    UnpinMultiply: 1
+    DismemberMultiply: 0

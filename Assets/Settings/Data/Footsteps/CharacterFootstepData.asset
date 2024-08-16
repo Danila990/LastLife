@@ -1,0 +1,198 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3385a2fbbead4781baadd0feb67af67e, type: 3}
+  m_Name: CharacterFootstepData
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 13400000, guid: 508d89b8fd85c3445a7f46ae4b43e24f, type: 2}
+    - {fileID: 8300000, guid: 72f526a6a9890f643a88e85a61c86c8a, type: 3}
+    - {fileID: 8300000, guid: 85016e0f2b01da248b9663dd49a161b0, type: 3}
+    - {fileID: 8300000, guid: 186de84b3207156479abe98f4958fed0, type: 3}
+    - {fileID: 8300000, guid: 1a91fcd19acf1e54bba0945d9f390849, type: 3}
+    - {fileID: 8300000, guid: 14e8a8d2158bec840b56c54f5266e692, type: 3}
+    - {fileID: 8300000, guid: 29841e7d5bbfb5b419c9ad16ca8bc4c1, type: 3}
+    - {fileID: 8300000, guid: dd1af302b8902684d9381de1f2d3a5af, type: 3}
+    - {fileID: 8300000, guid: 67c8b33e424ccdc4486edf538ab91c5a, type: 3}
+    - {fileID: 8300000, guid: 274649b0e221539409070ebf6c18918b, type: 3}
+    - {fileID: 8300000, guid: a3194b8bbc96ef84fab1f98f4b7dae3e, type: 3}
+    - {fileID: 13400000, guid: 5f345305635abc74fb33000d3e655fb7, type: 2}
+    - {fileID: 8300000, guid: 5a65f3aa433443147a1f636dd4c485af, type: 3}
+    - {fileID: 8300000, guid: 9902b242437892d4c9166118c7ed6059, type: 3}
+    - {fileID: 8300000, guid: e9cd10e5dec9b794c9afe35869445ce5, type: 3}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: _footsteps
+      Entry: 7
+      Data: 0|System.Collections.Generic.Dictionary`2[[UnityEngine.PhysicMaterial,
+        UnityEngine.PhysicsModule],[Core.Entity.Step.FootstepSettings, User]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 1|System.Collections.Generic.ObjectEqualityComparer`1[[UnityEngine.PhysicMaterial,
+        UnityEngine.PhysicsModule]], mscorlib
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 10
+      Data: 0
+    - Name: $v
+      Entry: 7
+      Data: 2|Core.Entity.Step.FootstepSettings, User
+    - Name: MaxDistance
+      Entry: 4
+      Data: 5
+    - Name: Volume
+      Entry: 4
+      Data: 0.25
+    - Name: Spread
+      Entry: 4
+      Data: 1
+    - Name: Pitch
+      Entry: 4
+      Data: 1
+    - Name: Mode
+      Entry: 3
+      Data: 0
+    - Name: Clips
+      Entry: 7
+      Data: 3|UnityEngine.AudioClip[], UnityEngine.AudioModule
+    - Name: 
+      Entry: 12
+      Data: 10
+    - Name: 
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 10
+      Data: 2
+    - Name: 
+      Entry: 10
+      Data: 3
+    - Name: 
+      Entry: 10
+      Data: 4
+    - Name: 
+      Entry: 10
+      Data: 5
+    - Name: 
+      Entry: 10
+      Data: 6
+    - Name: 
+      Entry: 10
+      Data: 7
+    - Name: 
+      Entry: 10
+      Data: 8
+    - Name: 
+      Entry: 10
+      Data: 9
+    - Name: 
+      Entry: 10
+      Data: 10
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 10
+      Data: 11
+    - Name: $v
+      Entry: 7
+      Data: 4|Core.Entity.Step.FootstepSettings, User
+    - Name: MaxDistance
+      Entry: 4
+      Data: 5
+    - Name: Volume
+      Entry: 4
+      Data: 0.1
+    - Name: Spread
+      Entry: 4
+      Data: 1
+    - Name: Pitch
+      Entry: 4
+      Data: 1
+    - Name: Mode
+      Entry: 3
+      Data: 0
+    - Name: Clips
+      Entry: 7
+      Data: 5|UnityEngine.AudioClip[], UnityEngine.AudioModule
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 10
+      Data: 12
+    - Name: 
+      Entry: 10
+      Data: 13
+    - Name: 
+      Entry: 10
+      Data: 14
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  _fallback:
+    MaxDistance: 5
+    Volume: 0.26
+    Spread: 1
+    Pitch: 1
+    Mode: 0
+    Clips:
+    - {fileID: 8300000, guid: 72f526a6a9890f643a88e85a61c86c8a, type: 3}
+    - {fileID: 8300000, guid: 85016e0f2b01da248b9663dd49a161b0, type: 3}
+    - {fileID: 8300000, guid: 186de84b3207156479abe98f4958fed0, type: 3}
+    - {fileID: 8300000, guid: 1a91fcd19acf1e54bba0945d9f390849, type: 3}
+    - {fileID: 8300000, guid: 14e8a8d2158bec840b56c54f5266e692, type: 3}
+    - {fileID: 8300000, guid: 29841e7d5bbfb5b419c9ad16ca8bc4c1, type: 3}
+    - {fileID: 8300000, guid: dd1af302b8902684d9381de1f2d3a5af, type: 3}
+    - {fileID: 8300000, guid: 67c8b33e424ccdc4486edf538ab91c5a, type: 3}
+    - {fileID: 8300000, guid: 274649b0e221539409070ebf6c18918b, type: 3}
+    - {fileID: 8300000, guid: a3194b8bbc96ef84fab1f98f4b7dae3e, type: 3}

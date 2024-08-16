@@ -1,0 +1,479 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &474041806041976000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 943855985525474533}
+  - component: {fileID: 574457849570543981}
+  m_Layer: 0
+  m_Name: AiSpawnPoint_5
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &943855985525474533
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 474041806041976000}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0.31017905, z: -0, w: 0.9506782}
+  m_LocalPosition: {x: -0.20810318, y: 0, z: -16.272316}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5254160536373725668}
+  m_LocalEulerAnglesHint: {x: 0, y: -36.14, z: 0}
+--- !u!114 &574457849570543981
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 474041806041976000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9d83749ee544bd3b7b7cb06b169733b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  <AiAdapterId>k__BackingField: RevolverMan
+  <AiType>k__BackingField: 0
+--- !u!1 &965640673109715217
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8036122060863818940}
+  - component: {fileID: 5837125521889988268}
+  m_Layer: 0
+  m_Name: AiSpawnPoint_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8036122060863818940
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 965640673109715217}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -8.818104, y: 0, z: -16.379295}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5254160536373725668}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5837125521889988268
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 965640673109715217}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9d83749ee544bd3b7b7cb06b169733b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  <AiAdapterId>k__BackingField: PistolMan
+  <AiType>k__BackingField: 0
+--- !u!1 &1521462755279141556
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7116103515588579782}
+  - component: {fileID: 2909491067717675732}
+  m_Layer: 0
+  m_Name: AiSpawnPoint_6
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7116103515588579782
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1521462755279141556}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0.62992173, z: -0, w: 0.7766586}
+  m_LocalPosition: {x: -10.298241, y: 0, z: -23.3735}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5254160536373725668}
+  m_LocalEulerAnglesHint: {x: 0, y: -78.089, z: 0}
+--- !u!114 &2909491067717675732
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1521462755279141556}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9d83749ee544bd3b7b7cb06b169733b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  <AiAdapterId>k__BackingField: RevolverMan
+  <AiType>k__BackingField: 0
+--- !u!1 &1857782998308109435
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 234411800692633710}
+  - component: {fileID: 4017026390810735440}
+  m_Layer: 0
+  m_Name: AiSpawnPoint_7
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &234411800692633710
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1857782998308109435}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0.6877606, z: -0, w: 0.72593766}
+  m_LocalPosition: {x: 1.6153297, y: 0, z: -5.646345}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5254160536373725668}
+  m_LocalEulerAnglesHint: {x: 0, y: -86.906, z: 0}
+--- !u!114 &4017026390810735440
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1857782998308109435}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9d83749ee544bd3b7b7cb06b169733b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  <AiAdapterId>k__BackingField: SawedOff
+  <AiType>k__BackingField: 0
+--- !u!1 &2342726344780234636
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1090083856987377145}
+  - component: {fileID: 4029771350973917599}
+  m_Layer: 0
+  m_Name: AiSpawnPoint_4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1090083856987377145
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2342726344780234636}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0.70718414, z: -0, w: 0.7070295}
+  m_LocalPosition: {x: -7.3586807, y: 0, z: -5.698059}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5254160536373725668}
+  m_LocalEulerAnglesHint: {x: 0, y: -90.013, z: 0}
+--- !u!114 &4029771350973917599
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2342726344780234636}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9d83749ee544bd3b7b7cb06b169733b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  <AiAdapterId>k__BackingField: RevolverMan
+  <AiType>k__BackingField: 0
+--- !u!1 &5917919856441528266
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5254160536373725668}
+  - component: {fileID: 6192360575524078688}
+  m_Layer: 0
+  m_Name: InGameSpawnPoints
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5254160536373725668
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5917919856441528266}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 7497296056906234438}
+  - {fileID: 1060570156987997410}
+  - {fileID: 8036122060863818940}
+  - {fileID: 943855985525474533}
+  - {fileID: 234411800692633710}
+  - {fileID: 1090083856987377145}
+  - {fileID: 5706292863982964488}
+  - {fileID: 7116103515588579782}
+  - {fileID: 1492394374473214414}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6192360575524078688
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5917919856441528266}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fdf8518002544875a8e1b10b1d162799, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SpawnPoints:
+  - {fileID: 3484266905980943914}
+  - {fileID: 860810108971996175}
+  - {fileID: 5837125521889988268}
+  - {fileID: 574457849570543981}
+  - {fileID: 4017026390810735440}
+  - {fileID: 4029771350973917599}
+  - {fileID: 6248161075506524988}
+  - {fileID: 2909491067717675732}
+  - {fileID: 2485820095724876196}
+--- !u!1 &6080614841748007227
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1060570156987997410}
+  - component: {fileID: 860810108971996175}
+  m_Layer: 0
+  m_Name: AiSpawnPoint_3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1060570156987997410
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6080614841748007227}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: 0.357949, z: -0, w: 0.93374115}
+  m_LocalPosition: {x: -4.0599995, y: 0, z: -26.73}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5254160536373725668}
+  m_LocalEulerAnglesHint: {x: 0, y: 41.949, z: 0}
+--- !u!114 &860810108971996175
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6080614841748007227}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9d83749ee544bd3b7b7cb06b169733b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  <AiAdapterId>k__BackingField: PistolMan
+  <AiType>k__BackingField: 0
+--- !u!1 &6665181131660635510
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7497296056906234438}
+  - component: {fileID: 3484266905980943914}
+  m_Layer: 0
+  m_Name: AiSpawnPoint_1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7497296056906234438
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6665181131660635510}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0.10386778, z: -0, w: 0.9945911}
+  m_LocalPosition: {x: 6.9300003, y: 0, z: -21.91}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5254160536373725668}
+  m_LocalEulerAnglesHint: {x: 0, y: -11.924, z: 0}
+--- !u!114 &3484266905980943914
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6665181131660635510}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9d83749ee544bd3b7b7cb06b169733b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  <AiAdapterId>k__BackingField: PistolMan
+  <AiType>k__BackingField: 0
+--- !u!1 &7348394973964977672
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5706292863982964488}
+  - component: {fileID: 6248161075506524988}
+  m_Layer: 0
+  m_Name: AiSpawnPoint_8
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5706292863982964488
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7348394973964977672}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0.9419951, z: -0, w: 0.33562675}
+  m_LocalPosition: {x: -11.021425, y: 0, z: -11.700724}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5254160536373725668}
+  m_LocalEulerAnglesHint: {x: 0, y: -140.779, z: 0}
+--- !u!114 &6248161075506524988
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7348394973964977672}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9d83749ee544bd3b7b7cb06b169733b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  <AiAdapterId>k__BackingField: SawedOff
+  <AiType>k__BackingField: 0
+--- !u!1 &7602087547175430223
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1492394374473214414}
+  - component: {fileID: 2485820095724876196}
+  m_Layer: 0
+  m_Name: AiSpawnPoint_9
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1492394374473214414
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7602087547175430223}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0.9020392, z: -0, w: 0.43165413}
+  m_LocalPosition: {x: 0.810215, y: 0, z: -25.157104}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5254160536373725668}
+  m_LocalEulerAnglesHint: {x: 0, y: -128.855, z: 0}
+--- !u!114 &2485820095724876196
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7602087547175430223}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9d83749ee544bd3b7b7cb06b169733b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  <AiAdapterId>k__BackingField: SawedOff
+  <AiType>k__BackingField: 0

@@ -1,0 +1,160 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fdc41eba88ff4764b9cdcaada66a7d15, type: 3}
+  m_Name: FlameManUpgrades
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: _upgrades
+      Entry: 7
+      Data: 0|Core.Entity.EntityUpgrade.Upgrades.Abs.EntityUpgradeParameters[], User
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 7
+      Data: 1|Core.Entity.EntityUpgrade.Upgrades.Impl.WeaponParameterUpgradeParameters,
+        User
+    - Name: <Name>k__BackingField
+      Entry: 1
+      Data: AMMO CAPACITY
+    - Name: _prefKey
+      Entry: 1
+      Data: Capacity
+    - Name: _values
+      Entry: 7
+      Data: 2|System.Single[], mscorlib
+    - Name: 
+      Entry: 14
+      Data: 5
+    - Name: 
+      Entry: 4
+      Data: 2
+    - Name: 
+      Entry: 4
+      Data: 4
+    - Name: 
+      Entry: 4
+      Data: 6
+    - Name: 
+      Entry: 4
+      Data: 8
+    - Name: 
+      Entry: 4
+      Data: 10
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 3|Core.Entity.EntityUpgrade.Upgrades.Impl.WeaponParameterUpgradeParameters,
+        User
+    - Name: <Name>k__BackingField
+      Entry: 1
+      Data: Damage
+    - Name: _prefKey
+      Entry: 1
+      Data: Damage
+    - Name: _values
+      Entry: 7
+      Data: 4|System.Single[], mscorlib
+    - Name: 
+      Entry: 14
+      Data: 5
+    - Name: 
+      Entry: 4
+      Data: 5
+    - Name: 
+      Entry: 4
+      Data: 7
+    - Name: 
+      Entry: 4
+      Data: 12
+    - Name: 
+      Entry: 4
+      Data: 17
+    - Name: 
+      Entry: 4
+      Data: 20
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 5|Core.Entity.EntityUpgrade.Upgrades.Impl.WeaponParameterUpgradeParameters,
+        User
+    - Name: <Name>k__BackingField
+      Entry: 1
+      Data: SHOT ACCURACY
+    - Name: _prefKey
+      Entry: 1
+      Data: Distance
+    - Name: _values
+      Entry: 7
+      Data: 6|System.Single[], mscorlib
+    - Name: 
+      Entry: 14
+      Data: 5
+    - Name: 
+      Entry: 4
+      Data: -0.005
+    - Name: 
+      Entry: 4
+      Data: -0.0075
+    - Name: 
+      Entry: 4
+      Data: -0.0125
+    - Name: 
+      Entry: 4
+      Data: -0.015
+    - Name: 
+      Entry: 4
+      Data: -0.02
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  _uniqueId: FlameMan_Upgrades
+  _targetId: FlameItem
+  _playerId: FlameMan
+  _specialUpgrades:
+  - {fileID: 11400000, guid: 032bff49110a5dd44a390fa6f5eeaf8c, type: 2}

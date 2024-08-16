@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 742df9ee82aa4be5a449934bafd73de6, type: 3}
+  m_Name: ThrowKnife_Ability_MerchantItem
+  m_EditorClassIdentifier: 
+  <Model>k__BackingField:
+    <Id>k__BackingField: ThrowKnife_Ability_MerchantItem
+    Name: Throw Knife
+    UnlockKey: KnifeAbility_MerchantItem
+    IsUnlocked: 0
+    Ico: {fileID: 21300000, guid: 57219e949ee939b45b4d5cbe351e4a1d, type: 3}
+    TransparentIcon: 1
+    DrawPrice: 0
+    ResourceType: 3
+    Price: 1
+    StoreItemType: 0
+    ObjectDataIdToBuy: ThrowKnife_Ability

@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fa033bedfc149c3849f8d39e1463ca8, type: 3}
+  m_Name: CharacterData
+  m_EditorClassIdentifier: 
+  FootstepData: {fileID: 11400000, guid: e4a14c38d8c840744985c3f762937c78, type: 2}
+  DeathSound: {fileID: 8300000, guid: 657534e7447d9a149bfce9c800e96694, type: 3}
+  HurtSound: {fileID: 8300000, guid: 776bdb4340cc65343aefc09772937ffe, type: 3}
+  GroundSphereOffset: 0
+  GroundSphereRadius: 0.1
+  GroundLayers:
+    serializedVersion: 2
+    m_Bits: 128
+  ColliderCenter: {x: 0, y: 1, z: 0}
+  ColliderRadius: 0.2
+  AgentRadius: 0.25
+  ColliderHeight: 2
+  MoveSpeed: 2
+  SprintSpeed: 5.333
+  SpeedChangeRate: 100
+  RotationSmoothTime: 100

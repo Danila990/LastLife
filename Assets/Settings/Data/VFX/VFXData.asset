@@ -1,0 +1,165 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b178f00c98548219ad6d696c46575ca, type: 3}
+  m_Name: VFXData
+  m_EditorClassIdentifier: 
+  _particleData:
+  - Name: metal_hit
+    MaxCount: 10
+    PreloadCount: 10
+    Particle: {fileID: -8071803600493763600, guid: bffbfe45d90678e4e9ade30baa2107b0,
+      type: 3}
+  - Name: blood_spray
+    MaxCount: 10
+    PreloadCount: 10
+    Particle: {fileID: -8403090966086533457, guid: c02af2c90d36f4479b4e71e4f5042c14,
+      type: 3}
+  - Name: dust_small
+    MaxCount: 5
+    PreloadCount: 5
+    Particle: {fileID: 841352418586851296, guid: 4fd5772783cff47ec8b2e62d0c372c41,
+      type: 3}
+  - Name: wood_hit
+    MaxCount: 5
+    PreloadCount: 5
+    Particle: {fileID: -9051096911679737004, guid: bf46bb85c9f5c2d439c240f8004a9d04,
+      type: 3}
+  - Name: stone_hit
+    MaxCount: 100
+    PreloadCount: 10
+    Particle: {fileID: 4426285007342051457, guid: 7d4d6e3aaa71be841b13be0dc61f2e64,
+      type: 3}
+  - Name: big_explosion
+    MaxCount: 5
+    PreloadCount: 5
+    Particle: {fileID: 5995187634749620571, guid: e1b08032bec16ba4eb1ae23cbd572664,
+      type: 3}
+  - Name: blood_stream
+    MaxCount: 25
+    PreloadCount: 5
+    Particle: {fileID: -3882505732022263488, guid: 39ae5a2610e2c490890678f4d72bf722,
+      type: 3}
+  - Name: box_explosion
+    MaxCount: 5
+    PreloadCount: 5
+    Particle: {fileID: -971278513104892884, guid: 843f29aecd02049df9441bed4c642a02,
+      type: 3}
+  - Name: MuzzleFlash
+    MaxCount: 15
+    PreloadCount: 5
+    Particle: {fileID: -1703987710191518893, guid: a5e756a7384a07b4c8cd206c16b32273,
+      type: 3}
+  - Name: Plasma_Muzzle
+    MaxCount: 5
+    PreloadCount: 1
+    Particle: {fileID: 1862414301952923082, guid: e1e7cbc325ac54cf19445e5dede1943b,
+      type: 3}
+  - Name: Plasma_Impact
+    MaxCount: 10
+    PreloadCount: 5
+    Particle: {fileID: 142026525904642254, guid: 61a0badc72a1a470b89026ed74beeb46,
+      type: 3}
+  - Name: Barrier_Impact
+    MaxCount: 5
+    PreloadCount: 3
+    Particle: {fileID: 142026525904642254, guid: bab109a9a3fb24643989cdfafa46ff68,
+      type: 3}
+  - Name: EatingMeat
+    MaxCount: 5
+    PreloadCount: 1
+    Particle: {fileID: 134322739467217322, guid: 1a118c5344aef41fb912fc7fe719b774,
+      type: 3}
+  - Name: WindowExplosion
+    MaxCount: 3
+    PreloadCount: 0
+    Particle: {fileID: 9109332286004473147, guid: f908ea6ab3292e348a7db300f7e7c856,
+      type: 3}
+  - Name: PlasmaGrenadeExplosion
+    MaxCount: 3
+    PreloadCount: 0
+    Particle: {fileID: 5995187634749620571, guid: a314099ccd74f9640bfbcdbc3a83f8eb,
+      type: 3}
+  - Name: ReloadTimer
+    MaxCount: 10
+    PreloadCount: 0
+    Particle: {fileID: 8529948106697597547, guid: bd8d875c33a768a41b8bbc245f724bb8,
+      type: 3}
+  - Name: Shocked_Medium
+    MaxCount: 10
+    PreloadCount: 0
+    Particle: {fileID: 4227240198193445471, guid: 3b7d2701b08004946a307a6364decf63,
+      type: 3}
+  - Name: Shocked_Small
+    MaxCount: 10
+    PreloadCount: 0
+    Particle: {fileID: 4564225836567724856, guid: 94432e7574379fa42a295e22903d2e8c,
+      type: 3}
+  - Name: Shocked_Large
+    MaxCount: 10
+    PreloadCount: 0
+    Particle: {fileID: 1530396958058114147, guid: 75a4952657b166c4d8bdbe3319f1397d,
+      type: 3}
+  - Name: SmallExplosion
+    MaxCount: 10
+    PreloadCount: 0
+    Particle: {fileID: 5995187634749620571, guid: f5b392e4e7a98914b9b570ca2de200e8,
+      type: 3}
+  - Name: emp_explosion
+    MaxCount: 10
+    PreloadCount: 0
+    Particle: {fileID: -2106407712949633831, guid: 20d4090192d4095479bcce56d4cb6003,
+      type: 3}
+  - Name: SmallBarrier_Impact
+    MaxCount: 10
+    PreloadCount: 0
+    Particle: {fileID: 142026525904642254, guid: 9052b841d9ddee640a71b6bd76f8c9ea,
+      type: 3}
+  - Name: EggExplosion
+    MaxCount: 3
+    PreloadCount: 0
+    Particle: {fileID: 4333746671887192765, guid: bb9d77b485d71a947aa8effdc9472c43,
+      type: 3}
+  - Name: GreenBoost
+    MaxCount: 5
+    PreloadCount: 0
+    Particle: {fileID: 6509006698253999689, guid: 403e7ba4872fe874e8f183c95dad8e80,
+      type: 3}
+  - Name: YellowBoost
+    MaxCount: 5
+    PreloadCount: 0
+    Particle: {fileID: 4806474910124342748, guid: a757ebc40c8fe6d488c8ea95aca67373,
+      type: 3}
+  - Name: RedBoost
+    MaxCount: 5
+    PreloadCount: 0
+    Particle: {fileID: 8385120791191552892, guid: b39a49ca441713445b9ee554b8e9364f,
+      type: 3}
+  - Name: OrangeBoost
+    MaxCount: 5
+    PreloadCount: 0
+    Particle: {fileID: 39662739138412747, guid: 30d6c6503e3e3a145959707a05debf34,
+      type: 3}
+  - Name: CannonBallExplosion
+    MaxCount: 3
+    PreloadCount: 0
+    Particle: {fileID: 6269348716207842468, guid: 4b520a13a17ab1b43b22963521d23ecd,
+      type: 3}
+  - Name: DustExplosionSmall
+    MaxCount: 2
+    PreloadCount: 0
+    Particle: {fileID: 841352418586851296, guid: f83039353dbda134ca678ff381f22505,
+      type: 3}
+  - Name: BurnCharacter
+    MaxCount: 20
+    PreloadCount: 5
+    Particle: {fileID: 6478504251192111387, guid: 7a52ea56adc534fc7bab38f027013922,
+      type: 3}

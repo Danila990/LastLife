@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e205ab63e4f4b438c194309681c4936, type: 3}
+  m_Name: FullScreenMaterialData
+  m_EditorClassIdentifier: 
+  _materials:
+  - Key: HP
+    Material: {fileID: 2100000, guid: 4163a1a84dd6a37449a761c4b8f97a38, type: 2}
+    Animation: {fileID: 11400000, guid: f461a814c06239d469f89e109a7d55a2, type: 2}
+  - Key: JumpUp
+    Material: {fileID: 2100000, guid: a557beec2f8ed6040ae8bc9b5b5674fd, type: 2}
+    Animation: {fileID: 11400000, guid: f461a814c06239d469f89e109a7d55a2, type: 2}
+  - Key: Damage
+    Material: {fileID: 2100000, guid: 68e91241384c4fa4e9c9e9e81c044d49, type: 2}
+    Animation: {fileID: 11400000, guid: f461a814c06239d469f89e109a7d55a2, type: 2}
+  - Key: SpeedUp
+    Material: {fileID: 2100000, guid: 1322296127a7b0c4a8ed704145fd49d0, type: 2}
+    Animation: {fileID: 11400000, guid: f461a814c06239d469f89e109a7d55a2, type: 2}
+  - Key: LowHp
+    Material: {fileID: 2100000, guid: dc94a7d9facdb7b4ab256141f7c891a4, type: 2}
+    Animation: {fileID: 11400000, guid: 42b8f664f031e984bb49de05f7346bad, type: 2}

@@ -1,0 +1,117 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39fa0eff4b364f32a8dd4f5fa919a1a3, type: 3}
+  m_Name: Characters_EffectsData (Girls)
+  m_EditorClassIdentifier: 
+  _simpleEffects:
+  - ParticleKey: BurnCharacter
+    Type: 2
+    BoneToAttach: Hips
+    IsEffectDamage: 1
+    Damage: 10
+    CountTick: 3
+    TickDelay: 1
+    SoundEffect: {fileID: 0}
+    UseSoundsCollection: 0
+    SpatialBlend: 1
+    SoundsCollection: []
+    SingleSound: {fileID: 8300000, guid: e706c9d5b03e3604ab32baae1c2abb0e, type: 3}
+  _simpleFallback:
+    ParticleKey: Shocked_Medium
+    Type: 1
+    BoneToAttach: Hips
+    IsEffectDamage: 0
+    Damage: 0
+    CountTick: 0
+    TickDelay: 0
+    SoundEffect: {fileID: 0}
+    UseSoundsCollection: 0
+    SpatialBlend: 1
+    SoundsCollection: []
+    SingleSound: {fileID: 8300000, guid: ad8d0740ac1815547a8370880f85197f, type: 3}
+  _boostEffects:
+  - ParticleKey: GreenBoost
+    Type: 0
+    BoneToAttach: Spine
+    IsEffectDamage: 0
+    Damage: 0
+    CountTick: 0
+    TickDelay: 0
+    SoundEffect: {fileID: 0}
+    UseSoundsCollection: 0
+    SpatialBlend: 0
+    SoundsCollection: []
+    SingleSound: {fileID: 8300000, guid: 881051bdd39a36141823826cf7876af7, type: 3}
+    BoostType: HP
+    ApplySound:
+    - {fileID: 8300000, guid: 83c27d5106933b849b4a4257ac7f41e3, type: 3}
+  - ParticleKey: YellowBoost
+    Type: 0
+    BoneToAttach: Hips
+    IsEffectDamage: 0
+    Damage: 0
+    CountTick: 0
+    TickDelay: 0
+    SoundEffect: {fileID: 0}
+    UseSoundsCollection: 0
+    SpatialBlend: 0
+    SoundsCollection: []
+    SingleSound: {fileID: 0}
+    BoostType: SpeedUp
+    ApplySound:
+    - {fileID: 8300000, guid: 83c27d5106933b849b4a4257ac7f41e3, type: 3}
+  - ParticleKey: OrangeBoost
+    Type: 0
+    BoneToAttach: Hips
+    IsEffectDamage: 0
+    Damage: 0
+    CountTick: 0
+    TickDelay: 0
+    SoundEffect: {fileID: 0}
+    UseSoundsCollection: 0
+    SpatialBlend: 0
+    SoundsCollection: []
+    SingleSound: {fileID: 0}
+    BoostType: JumpUp
+    ApplySound:
+    - {fileID: 8300000, guid: 83c27d5106933b849b4a4257ac7f41e3, type: 3}
+  - ParticleKey: RedBoost
+    Type: 0
+    BoneToAttach: Head
+    IsEffectDamage: 0
+    Damage: 0
+    CountTick: 0
+    TickDelay: 0
+    SoundEffect: {fileID: 0}
+    UseSoundsCollection: 0
+    SpatialBlend: 0
+    SoundsCollection:
+    - {fileID: 8300000, guid: f4ac65f76e54ab94da3a32a600713e36, type: 3}
+    SingleSound: {fileID: 8300000, guid: f4ac65f76e54ab94da3a32a600713e36, type: 3}
+    BoostType: Damage
+    ApplySound:
+    - {fileID: 8300000, guid: 83c27d5106933b849b4a4257ac7f41e3, type: 3}
+  _boostFallback:
+    ParticleKey: HpBoost
+    Type: 0
+    BoneToAttach: 
+    IsEffectDamage: 0
+    Damage: 0
+    CountTick: 0
+    TickDelay: 0
+    SoundEffect: {fileID: 0}
+    UseSoundsCollection: 0
+    SpatialBlend: 1
+    SoundsCollection: []
+    SingleSound: {fileID: 0}
+    BoostType: HP
+    ApplySound: []

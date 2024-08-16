@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49db5c7153b2439fb04863f25bc6cc45, type: 3}
+  m_Name: TongueAiItemData
+  m_EditorClassIdentifier: 
+  <AttackRange>k__BackingField: 15
+  <SelfEnd>k__BackingField: 1
+  <Cooldown>k__BackingField: 0
+  <ConstPriority>k__BackingField: 1
+  <UseItemDuration>k__BackingField: 5
+  <Damage>k__BackingField: 0
+  <UseRig>k__BackingField: 1
+  <RigName>k__BackingField: tongue
+  <HandleForwardDuration>k__BackingField: 3.5
+  <ForwardSpeed>k__BackingField: 34
+  <HandleBackDuration>k__BackingField: 1
+  <BackSpeed>k__BackingField: 3
+  <StartEat>k__BackingField: {fileID: 8300000, guid: fda1a0911d1e77643a54e92f9f7024f1,
+    type: 3}
+  <EndEat>k__BackingField: {fileID: 8300000, guid: 65b7006c02efa9c40a6247a7b02b3fb3,
+    type: 3}
+  <DistanceThreshold>k__BackingField: 0.3
+  <MeatFXName>k__BackingField: EatingMeat

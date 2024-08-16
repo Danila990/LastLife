@@ -1,0 +1,153 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5164864692879131458
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5632365775758842923}
+  - component: {fileID: 8252380287657489723}
+  m_Layer: 0
+  m_Name: SteelFan
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5632365775758842923
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5164864692879131458}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 1
+  m_Children:
+  - {fileID: 6685976921377848259}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8252380287657489723
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5164864692879131458}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c45328a1c9e8403fbc44b464d9bcbda0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Interactions: []
+  Providers: []
+  _tipContext: {fileID: 0}
+  BulletSphereSize: 0.39
+  BulletWeight: 10
+  Volume: 0.5
+  DamageArgs:
+    Damage: 50
+    BloodLossAmount: 0.3
+    BloodLossTime: 6
+    KnockOut: 50
+    HitForce: 50
+    Unpin: 500000
+    DismemberDamage: 150
+    DamageType: 0
+  ReleaseDelay: 0
+  DontAffectDistance: 1
+  ImpactOverrideFX: 
+  _particle: {fileID: 0}
+  Trail: {fileID: 5802372761230144908}
+  KnifeModel: {fileID: 6685976921377848259}
+  RotationTime: 2
+  LoopType: 0
+  RotationTarget: {x: 0, y: 720, z: 0}
+  ReturnTarget: {fileID: 0}
+  ReturnSpeed: 30
+--- !u!1001 &8405048813579606728
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5632365775758842923}
+    m_Modifications:
+    - target: {fileID: 2188722947528799290, guid: b718c26b07704ce4b85245ac0f509578,
+        type: 3}
+      propertyPath: m_Name
+      value: SteelFanView
+      objectReference: {fileID: 0}
+    - target: {fileID: 2913239394017386763, guid: b718c26b07704ce4b85245ac0f509578,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2913239394017386763, guid: b718c26b07704ce4b85245ac0f509578,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2913239394017386763, guid: b718c26b07704ce4b85245ac0f509578,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2913239394017386763, guid: b718c26b07704ce4b85245ac0f509578,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2913239394017386763, guid: b718c26b07704ce4b85245ac0f509578,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2913239394017386763, guid: b718c26b07704ce4b85245ac0f509578,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2913239394017386763, guid: b718c26b07704ce4b85245ac0f509578,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2913239394017386763, guid: b718c26b07704ce4b85245ac0f509578,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2913239394017386763, guid: b718c26b07704ce4b85245ac0f509578,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2913239394017386763, guid: b718c26b07704ce4b85245ac0f509578,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b718c26b07704ce4b85245ac0f509578, type: 3}
+--- !u!96 &5802372761230144908 stripped
+TrailRenderer:
+  m_CorrespondingSourceObject: {fileID: 2603801956635733828, guid: b718c26b07704ce4b85245ac0f509578,
+    type: 3}
+  m_PrefabInstance: {fileID: 8405048813579606728}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &6685976921377848259 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2913239394017386763, guid: b718c26b07704ce4b85245ac0f509578,
+    type: 3}
+  m_PrefabInstance: {fileID: 8405048813579606728}
+  m_PrefabAsset: {fileID: 0}

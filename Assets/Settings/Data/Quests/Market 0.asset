@@ -1,0 +1,217 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4963edf142e34c82aab9519eaeb7ae1a, type: 3}
+  m_Name: Market 0
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes: []
+  _treeData:
+    Id: market_0
+    Name: MARKET QUEST
+  _questData:
+  - MainData:
+      Description: Craft barrel of oil
+      DisplayData:
+        OverrideForList: 1
+        OverridenListWidth: 51
+        OverrideForWidget: 1
+        OverridenWidgetWidth: 59
+        Rotation: {x: 0, y: 0, z: 0}
+      Icon: {fileID: 21300000, guid: 7cb87fd8d51a6314fa40af7f2c98d54e, type: 3}
+      Priority: 1
+      PriorityMult: 1
+    ImplementationData:
+      FinalNode:
+        Id: INT
+        Value: 1
+        InitialValue: 0
+      AnalyticId: produce_fuelbarrel
+      InlineId: Root/Produce/FuelBarrel/INT
+      MidNodes:
+      - Id: Produce
+      - Id: FuelBarrel
+  - MainData:
+      Description: Refine barrel of oil
+      DisplayData:
+        OverrideForList: 1
+        OverridenListWidth: 51
+        OverrideForWidget: 1
+        OverridenWidgetWidth: 59
+        Rotation: {x: 0, y: 0, z: 0}
+      Icon: {fileID: 21300000, guid: 7cb87fd8d51a6314fa40af7f2c98d54e, type: 3}
+      Priority: 1
+      PriorityMult: 1
+    ImplementationData:
+      FinalNode:
+        Id: INT
+        Value: 1
+        InitialValue: 0
+      AnalyticId: take_fuelbarrel
+      InlineId: Root/Take/FuelBarrel/INT
+      MidNodes:
+      - Id: Take
+      - Id: FuelBarrel
+  - MainData:
+      Description: "Speed \u200B\u200Bup oil refining"
+      DisplayData:
+        OverrideForList: 1
+        OverridenListWidth: 57
+        OverrideForWidget: 1
+        OverridenWidgetWidth: 66
+        Rotation: {x: 0, y: 0, z: 180}
+      Icon: {fileID: 21300000, guid: 8776d360ae7f3ef4ba43e0f9d390b02b, type: 3}
+      Priority: 1
+      PriorityMult: 1
+    ImplementationData:
+      FinalNode:
+        Id: INT
+        Value: 1
+        InitialValue: 0
+      AnalyticId: speedup_refiner
+      InlineId: Root/SpeedUp/Refiner/INT
+      MidNodes:
+      - Id: SpeedUp
+      - Id: Refiner
+  - MainData:
+      Description: Produce fuel canister
+      DisplayData:
+        OverrideForList: 1
+        OverridenListWidth: 51
+        OverrideForWidget: 1
+        OverridenWidgetWidth: 59
+        Rotation: {x: 0, y: 0, z: 0}
+      Icon: {fileID: 21300000, guid: 7cb87fd8d51a6314fa40af7f2c98d54e, type: 3}
+      Priority: 1
+      PriorityMult: 1
+    ImplementationData:
+      FinalNode:
+        Id: INT
+        Value: 1
+        InitialValue: 0
+      AnalyticId: produce_kanister
+      InlineId: Root/Produce/DebKanister/INT
+      MidNodes:
+      - Id: Produce
+      - Id: DebKanister
+  - MainData:
+      Description: Exchange canister for ticket
+      DisplayData:
+        OverrideForList: 1
+        OverridenListWidth: 51
+        OverrideForWidget: 1
+        OverridenWidgetWidth: 59
+        Rotation: {x: 0, y: 0, z: 0}
+      Icon: {fileID: 21300000, guid: 7cb87fd8d51a6314fa40af7f2c98d54e, type: 3}
+      Priority: 1
+      PriorityMult: 1
+    ImplementationData:
+      FinalNode:
+        Id: INT
+        Value: 1
+        InitialValue: 0
+      AnalyticId: exchange_fuel_to_ticket
+      InlineId: Root/Exchange/Fuel/Ticket/INT
+      MidNodes:
+      - Id: Exchange
+      - Id: Fuel
+      - Id: Ticket
+  - MainData:
+      Description: Buy booster from Sugar babe
+      DisplayData:
+        OverrideForList: 0
+        OverridenListWidth: 0
+        OverrideForWidget: 0
+        OverridenWidgetWidth: 0
+        Rotation: {x: 0, y: 0, z: 0}
+      Icon: {fileID: 21300000, guid: baf4cb99871ebb34f87edb8cc2f81a29, type: 3}
+      Priority: 1
+      PriorityMult: 1
+    ImplementationData:
+      FinalNode:
+        Id: INT
+        Value: 1
+        InitialValue: 0
+      AnalyticId: buy_boost
+      InlineId: Root/Buy/Boost/INT
+      MidNodes:
+      - Id: Buy
+      - Id: Boost
+  - MainData:
+      Description: Talk to banker
+      DisplayData:
+        OverrideForList: 0
+        OverridenListWidth: 0
+        OverrideForWidget: 1
+        OverridenWidgetWidth: 70
+        Rotation: {x: 0, y: 0, z: 0}
+      Icon: {fileID: 21300000, guid: e879fe55d36c48f41a822c29402bd73e, type: 3}
+      Priority: 1
+      PriorityMult: 1
+    ImplementationData:
+      FinalNode:
+        Id: INT
+        Value: 1
+        InitialValue: 0
+      AnalyticId: talk_to_banker
+      InlineId: Root/Talk/Banker/INT
+      MidNodes:
+      - Id: Talk
+      - Id: Banker
+  - MainData:
+      Description: Talk to modification seller
+      DisplayData:
+        OverrideForList: 0
+        OverridenListWidth: 0
+        OverrideForWidget: 1
+        OverridenWidgetWidth: 70
+        Rotation: {x: 0, y: 0, z: 0}
+      Icon: {fileID: 21300000, guid: e879fe55d36c48f41a822c29402bd73e, type: 3}
+      Priority: 1
+      PriorityMult: 1
+    ImplementationData:
+      FinalNode:
+        Id: INT
+        Value: 1
+        InitialValue: 0
+      AnalyticId: talk_to_merchant-modifiers
+      InlineId: Root/Talk/TraiderModify/INT
+      MidNodes:
+      - Id: Talk
+      - Id: TraiderModify
+  - MainData:
+      Description: Talk to Merchant
+      DisplayData:
+        OverrideForList: 0
+        OverridenListWidth: 0
+        OverrideForWidget: 1
+        OverridenWidgetWidth: 70
+        Rotation: {x: 0, y: 0, z: 0}
+      Icon: {fileID: 21300000, guid: e879fe55d36c48f41a822c29402bd73e, type: 3}
+      Priority: 1
+      PriorityMult: 1
+    ImplementationData:
+      FinalNode:
+        Id: INT
+        Value: 1
+        InitialValue: 0
+      AnalyticId: talk_to_items-merch
+      InlineId: Root/Talk/ItemsMerch/INT
+      MidNodes:
+      - Id: Talk
+      - Id: ItemsMerch

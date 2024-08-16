@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9edb0aeaf8e4ea0b6909372a20b2eec, type: 3}
+  m_Name: JetPackItemData 1
+  m_EditorClassIdentifier: 
+  <Model>k__BackingField:
+    <Id>k__BackingField: JetPack 1
+    Name: Rover Jetpack
+    UnlockKey: JetPack 1
+    IsUnlocked: 0
+    Ico: {fileID: 21300000, guid: 10136b08ce2d69b478738ece10d16253, type: 3}
+    _args:
+      FactoryObjId: JetPack 1
+      ItemId: JetPack 1
+      <Fuel>k__BackingField: 20
+      <PartType>k__BackingField: 0

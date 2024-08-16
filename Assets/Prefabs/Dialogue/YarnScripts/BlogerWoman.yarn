@@ -1,0 +1,53 @@
+﻿title: BlogerWoman_Start
+position: -554,-353
+---
+
+<<camera BlogerWomanCamera>>
+<<if getBool("blogerWomanSecondVisit", false) == false>>
+Sugar Babe: Hey! I`m Sugar Babe, the sweetest thing in the trailer park. 
+Sugar Babe: How can I sweeten your day?
+<<else>>
+Sugar Babe: Hey darling! How can I sweeten your day
+<<endif>>
+
+<<setBool blogerWomanSecondVisit true>>
+<<jump BlogerWoman_Menu>>
+===
+
+title: BlogerWoman_Menu
+position: -417,-157
+---
+    [Header]How can I sweeten your day?[/Header]
+    // -> Sugar Babe: Ask Information
+    //     <<jump BlogerWoman_AskInformation>>
+    -> Sugar Babe: Buy Boosts
+        <<jump BlogerWoman_Shop>>
+===
+
+title: BlogerWoman_Shop
+position: -71,-206
+---
+
+<<merchantShop "Boosts" "Girl" "Sugar Babe">>
+<<if boughtItems()>>
+Sugar Babe: Awesome, don`t forget your boosts!
+<<else>>
+Sugar Babe: Bye
+<<endif>>
+<<jump BlogerWoman_Menu>>
+===
+
+
+
+title: BlogerWoman_GoodBye
+position: 151,3
+---
+
+<<if random() > 0.5 >>
+    Sugar Babe: Take care! Talk to you soon.
+<<elseif random() > 0.5 >>
+    Sugar Babe: Bye for now! Catch you later.
+<<else>>
+    Sugar Babe: See you later! Stay safe.
+<<endif>>
+===

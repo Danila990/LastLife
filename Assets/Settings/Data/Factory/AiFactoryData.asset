@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73ad2b0d092f45ee90fef89f6a03d142, type: 3}
+  m_Name: AiFactoryData
+  m_EditorClassIdentifier: 
+  _characters:
+  - AiAdapter: {fileID: 6312808745490320598, guid: 45dfadaad8212f9419622b97958c6647,
+      type: 3}
+    CharacterId: PistolMan
+  - AiAdapter: {fileID: 6312808745490320598, guid: 45dfadaad8212f9419622b97958c6647,
+      type: 3}
+    CharacterId: RevolverMan
+  - AiAdapter: {fileID: 6312808745490320598, guid: 45dfadaad8212f9419622b97958c6647,
+      type: 3}
+    CharacterId: SawedOff
+  - AiAdapter: {fileID: 6312808745490320598, guid: 45dfadaad8212f9419622b97958c6647,
+      type: 3}
+    CharacterId: M16Man
+  - AiAdapter: {fileID: 6312808745490320598, guid: 45dfadaad8212f9419622b97958c6647,
+      type: 3}
+    CharacterId: AKMan
+  - AiAdapter: {fileID: 6312808745490320598, guid: 45dfadaad8212f9419622b97958c6647,
+      type: 3}
+    CharacterId: AWPMan
+  - AiAdapter: {fileID: 6312808745490320598, guid: 45dfadaad8212f9419622b97958c6647,
+      type: 3}
+    CharacterId: CrossBowMan
+  - AiAdapter: {fileID: 6312808745490320598, guid: 45dfadaad8212f9419622b97958c6647,
+      type: 3}
+    CharacterId: ShootgunMan
+  - AiAdapter: {fileID: 6312808745490320598, guid: 45dfadaad8212f9419622b97958c6647,
+      type: 3}
+    CharacterId: Catapultman
+  - AiAdapter: {fileID: 6312808745490320598, guid: 45dfadaad8212f9419622b97958c6647,
+      type: 3}
+    CharacterId: SteelFanGirl
+  - AiAdapter: {fileID: 6312808745490320598, guid: 45dfadaad8212f9419622b97958c6647,
+      type: 3}
+    CharacterId: CannonMan
+  - AiAdapter: {fileID: 6312808745490320598, guid: 45dfadaad8212f9419622b97958c6647,
+      type: 3}
+    CharacterId: SaiGirl
+  _heads:
+  - AiAdapter: {fileID: 4103373541437722911, guid: fd8c2ec0804e21a41965e6562e431f86,
+      type: 3}
+    CharacterId: HeadBase
+  - AiAdapter: {fileID: 4103373541437722911, guid: 0aeb3209a44fbf34a9fc32751318fbf6,
+      type: 3}
+    CharacterId: SpiderHead
+  - AiAdapter: {fileID: 4103373541437722911, guid: ac7a2480e5ef5d84c8a8af43bad0672d,
+      type: 3}
+    CharacterId: JetHead
+  - AiAdapter: {fileID: 4103373541437722911, guid: 599d81ee8a90c034294d21c5081cbe2e,
+      type: 3}
+    CharacterId: HeadBird
+  _referenceData: {fileID: 11400000, guid: f0af5f27076e1df4d87b319a1d60c962, type: 2}

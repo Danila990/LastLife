@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f45e3e629594ce083e7031b41d1e5b4, type: 3}
+  m_Name: SceneLoaderWindow
+  m_EditorClassIdentifier: 
+  ViewRegistrations:
+  - View: {fileID: 4639046076632179329, guid: 80a2fcdd20fd8fd4ca9944ecce321039, type: 3}
+    ControllerType: Ui.Sandbox.SceneLoad.SceneLoadController
+  WindowRegistrations:
+  - WindowType: Ui.Sandbox.SceneLoad.SceneLoadWindow

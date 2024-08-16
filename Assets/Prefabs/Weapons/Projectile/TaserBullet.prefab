@@ -1,0 +1,157 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5164864692879131458
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5632365775758842923}
+  - component: {fileID: 8252380287657489723}
+  m_Layer: 0
+  m_Name: TaserBullet
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5632365775758842923
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5164864692879131458}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 1
+  m_Children:
+  - {fileID: 986720390780357184}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8252380287657489723
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5164864692879131458}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed5907616ad54bcea7c96733a9d1172d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Interactions: []
+  Providers: []
+  BulletSphereSize: 0
+  BulletWeight: 100
+  Volume: 0.5
+  DamageArgs:
+    Damage: 0
+    BloodLossAmount: 0
+    BloodLossTime: 0
+    KnockOut: 0
+    HitForce: 0
+    Unpin: 500000
+    DismemberDamage: 0
+    DamageType: 0
+  ReleaseDelay: 2
+  DontAffectDistance: 0
+  ImpactOverrideFX: 
+  _particle: {fileID: 0}
+  EffectArgs:
+    EffectType: 1
+    Duration: 5
+--- !u!1001 &2785028494562934441
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5632365775758842923}
+    m_Modifications:
+    - target: {fileID: 3009560540184668721, guid: ec8e8ccaa8e6ac945a6591146b7158cf,
+        type: 3}
+      propertyPath: startDelay.scalar
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3010129417521155265, guid: ec8e8ccaa8e6ac945a6591146b7158cf,
+        type: 3}
+      propertyPath: startDelay.scalar
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3099224253634660671, guid: ec8e8ccaa8e6ac945a6591146b7158cf,
+        type: 3}
+      propertyPath: m_Name
+      value: ElectroshokerProjectile
+      objectReference: {fileID: 0}
+    - target: {fileID: 3105197167977608425, guid: ec8e8ccaa8e6ac945a6591146b7158cf,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.00437
+      objectReference: {fileID: 0}
+    - target: {fileID: 3105197167977608425, guid: ec8e8ccaa8e6ac945a6591146b7158cf,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.00146
+      objectReference: {fileID: 0}
+    - target: {fileID: 3105197167977608425, guid: ec8e8ccaa8e6ac945a6591146b7158cf,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3105197167977608425, guid: ec8e8ccaa8e6ac945a6591146b7158cf,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.70713764
+      objectReference: {fileID: 0}
+    - target: {fileID: 3105197167977608425, guid: ec8e8ccaa8e6ac945a6591146b7158cf,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3105197167977608425, guid: ec8e8ccaa8e6ac945a6591146b7158cf,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.70707595
+      objectReference: {fileID: 0}
+    - target: {fileID: 3105197167977608425, guid: ec8e8ccaa8e6ac945a6591146b7158cf,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3105197167977608425, guid: ec8e8ccaa8e6ac945a6591146b7158cf,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3105197167977608425, guid: ec8e8ccaa8e6ac945a6591146b7158cf,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 89.995
+      objectReference: {fileID: 0}
+    - target: {fileID: 3105197167977608425, guid: ec8e8ccaa8e6ac945a6591146b7158cf,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8616906650182915313, guid: ec8e8ccaa8e6ac945a6591146b7158cf,
+        type: 3}
+      propertyPath: startDelay.scalar
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ec8e8ccaa8e6ac945a6591146b7158cf, type: 3}
+--- !u!4 &986720390780357184 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3105197167977608425, guid: ec8e8ccaa8e6ac945a6591146b7158cf,
+    type: 3}
+  m_PrefabInstance: {fileID: 2785028494562934441}
+  m_PrefabAsset: {fileID: 0}

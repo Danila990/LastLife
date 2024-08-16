@@ -1,0 +1,129 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4526451338960098454
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8971791529303581063}
+  - component: {fileID: 6665226771968764745}
+  - component: {fileID: -2164087170592032343}
+  m_Layer: 6
+  m_Name: GravyGunContext
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8971791529303581063
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4526451338960098454}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6665226771968764745
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4526451338960098454}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f1f14cb4d43448a8ff76d263de80e89, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Interactions: []
+  Providers: []
+  <Owner>k__BackingField: {fileID: 0}
+  IsEnabled: 1
+  RequireInject: 1
+  CanAim: 1
+  CanFPV: 1
+  CanTPV: 1
+  UseFpvHands: 1
+  PlaceInHand: 0
+  PlaceInLeft: 0
+  ItemActionProvider:
+    Actions:
+    - _abstractEntityAction: {fileID: 11400000, guid: 851711f9d88400a48b7e70ace00c6d3c,
+        type: 2}
+      <ActionKey>k__BackingField: 1
+      <ActionName>k__BackingField: Create Item
+      <Icon>k__BackingField: {fileID: 21300000, guid: 65c9a7bd4d3609142a96436648dd69a3,
+        type: 3}
+    - _abstractEntityAction: {fileID: 11400000, guid: e1da5e00f2066954dbb511417f8b661b,
+        type: 2}
+      <ActionKey>k__BackingField: 0
+      <ActionName>k__BackingField: 
+      <Icon>k__BackingField: {fileID: 21300000, guid: fd022b3ed49f72447b2ced3d2c0cdf21,
+        type: 3}
+    - _abstractEntityAction: {fileID: 11400000, guid: b244225daeb827248863a804684aef14,
+        type: 2}
+      <ActionKey>k__BackingField: 2
+      <ActionName>k__BackingField: 
+      <Icon>k__BackingField: {fileID: 21300000, guid: efcfa024c500a514cb177b2a78e8b94c,
+        type: 3}
+  <HasQuantity>k__BackingField: 0
+  _maxQuantity: 0
+  ItemAnimator: {fileID: -2164087170592032343}
+  _gripType: 2
+  _itemModel: {fileID: 4452351393129984425, guid: cf6da4018c90d5c418e2b56ead0dfb09,
+    type: 3}
+  _itemBone: 12
+  _modelOffset: {x: -0.29, y: 0.102, z: 0.346}
+  _modelRotation: {x: 76, y: -253, z: -54}
+  _separateFpvModel: 0
+  _fpvModel: {fileID: 0}
+  _fpvModelOffset: {x: 0.0371, y: -0.11, z: 0.13}
+  _fpvModelRotation: {x: 0, y: -92, z: -5}
+  _fpvModelScale: {x: 0.3, y: 0.3, z: 0.3}
+  _fpvHandPos: {x: 0.022, y: -0.052, z: 0.04}
+  _fpvHandScale: {x: 0.3, y: 0.3, z: 0.3}
+  _animationBehaviour:
+    OverrideIdle: 
+    NeedShowHands: 1
+    Behaviours:
+    - Key: isIdling
+      EnableIK: 1
+      CanCancel: 1
+      ExitTime: 0
+      AnimatorType: 1
+      Clip: {fileID: 7400000, guid: 150ea9cf76567284ea779e8808bd5406, type: 2}
+      ReturnToIdle: 0
+    - Key: isRunning
+      EnableIK: 1
+      CanCancel: 1
+      ExitTime: 0
+      AnimatorType: 1
+      Clip: {fileID: 7400000, guid: 54c3b076dd1acaf4db508e8f88b08be6, type: 2}
+      ReturnToIdle: 0
+  InvIco: {fileID: 21300000, guid: a8f30d25a5953774a8b4e60252239112, type: 3}
+  InteractSound: {fileID: 8300000, guid: 11a3d85d198bccd46a645c552252f00f, type: 3}
+  SpawnSound: {fileID: 8300000, guid: db38b6b677e05874c8f9ff786c61abc1, type: 3}
+  RemoveSound: {fileID: 8300000, guid: 94c0da9246f46054f8355a28fda4a3af, type: 3}
+--- !u!114 &-2164087170592032343
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4526451338960098454}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afe7af65aa65437f82fdd8b14100240c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ViewSettings: {fileID: 11400000, guid: 5cc32bb0b71dbd5409c302d15df426af, type: 2}
